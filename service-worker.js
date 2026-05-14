@@ -1,1 +1,70 @@
-const C='sf-v2',A=['/','index.html','shopify-speed.html','google-business.html','merchant-center.html','tiktok-shop.html','schema-markup.html','ai-chatbot.html','about.html','contact.html'];self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(A).catch(()=>{})));});self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(n=>n!==C).map(n=>caches.delete(n)))));});self.addEventListener('fetch',e=>{e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)).catch(()=>fetch(e.request)));});
+// StorezFix Service Worker v3
+const CACHE = 'sf-v3';
+
+const PAGES = [
+  '/',
+  '/index.html',
+  '/about.html',
+  '/contact.html',
+  '/privacy.html',
+  '/terms.html',
+  '/shopify-speed.html',
+  '/google-business.html',
+  '/merchant-center.html',
+  '/tiktok-shop.html',
+  '/schema-markup.html',
+  '/ai-chatbot.html',
+  '/thank-you.html',
+  '/blog/',
+  '/blog/index.html',
+  '/blog/shopify-speed-slow.html',
+  '/blog/shopify-pagespeed-score.html',
+  '/blog/shopify-core-web-vitals.html',
+  '/blog/google-business-profile-setup.html',
+  '/blog/business-not-showing-google-maps.html',
+  '/blog/connect-shopify-tiktok-shop.html',
+  '/blog/what-is-schema-markup.html',
+  '/blog/get-star-ratings-google-search.html',
+  '/blog/google-merchant-center-shopify-setup.html',
+  '/blog/ai-chatbot-small-business-website.html',
+];
+
+// Install — cache all pages
+self.addEventListener('install', function(e) {
+  self.skipWaiting();
+  e.waitUntil(
+    caches.open(CACHE).then(function(c) {
+      return c.addAll(PAGES).catch(function() {});
+    })
+  );
+});
+
+// Activate — delete ALL old caches immediately
+self.addEventListener('activate', function(e) {
+  e.waitUntil(
+    caches.keys().then(function(keys) {
+      return Promise.all(
+        keys.filter(function(k) { return k !== CACHE; })
+            .map(function(k) { return caches.delete(k); })
+      );
+    }).then(function() {
+      return self.clients.claim();
+    })
+  );
+});
+
+// Fetch — network first, cache fallback
+self.addEventListener('fetch', function(e) {
+  if (e.request.method !== 'GET') return;
+  e.respondWith(
+    fetch(e.request)
+      .then(function(res) {
+        var clone = res.clone();
+        caches.open(CACHE).then(function(c) { c.put(e.request, clone); });
+        return res;
+      })
+      .catch(function() {
+        return caches.match(e.request);
+      })
+  );
+});
