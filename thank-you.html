@@ -4,9 +4,13 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Payment Received — Thank You | StorezFix</title>
+<link rel="canonical" href="https://storezfix.com/thank-you.html"/>
+<meta name="description" content="Your StorezFix order is confirmed. Check your email for next steps. We deliver within 24-48 hours."/>
 <meta name="robots" content="noindex,nofollow"/>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI3IiBmaWxsPSIjZmY1YzFhIi8+PHBvbHlnb24gcG9pbnRzPSIyMSw2IDE2LDE2IDIwLDE2IDE1LDI2IDI0LDE0IDIwLDE0IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg=="/>
 <meta name="theme-color" content="#ff5c1a"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -107,65 +111,10 @@ h1{font-family:'Sora',sans-serif;font-size:clamp(24px,5vw,34px);font-weight:800;
 
 <!-- Google Ads conversion tracking fires here -->
 <script>
-if(window.gtag){
-  gtag('event','conversion',{'send_to':'AW-18154704351/purchase'});
-}
+try{if(typeof gtag==='function'){gtag('event','conversion',{'send_to':'AW-18154704351/purchase'});}}catch(e){}
 </script>
 
-
-<style>
-.sfb{position:fixed;bottom:24px;right:24px;width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,#ff5c1a,#ff8040);cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 24px rgba(255,92,26,.5);z-index:9999;border:none;transition:transform .2s}
-.sfb:hover{transform:scale(1.08)}
-.sfb:active{transform:scale(.96)}
-.sfb-dot{position:absolute;top:1px;right:1px;width:14px;height:14px;background:#00c47a;border-radius:50%;border:2.5px solid white;animation:sfpulse 2s infinite}
-@keyframes sfpulse{0%,100%{transform:scale(1)}50%{transform:scale(1.35)}}
-.sfw{position:fixed;bottom:94px;right:24px;width:360px;height:540px;background:#0c0f1a;border-radius:20px;box-shadow:0 24px 64px rgba(0,0,0,.45);display:flex;flex-direction:column;z-index:9998;overflow:hidden;transform:scale(.88) translateY(16px);opacity:0;pointer-events:none;transition:all .26s cubic-bezier(.34,1.56,.64,1)}
-.sfw.open{transform:scale(1) translateY(0);opacity:1;pointer-events:auto}
-.sfh{background:linear-gradient(135deg,#ff5c1a,#e04a0f);padding:14px 18px;display:flex;align-items:center;gap:10px;flex-shrink:0}
-.sfh-av{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;font-size:15px}
-.sfh-name{font-family:Sora,sans-serif;font-size:13px;font-weight:700;color:white}
-.sfh-stat{font-size:11px;color:rgba(255,255,255,.7);display:flex;align-items:center;gap:4px;margin-top:2px}
-.sfh-dot{width:6px;height:6px;background:#00c47a;border-radius:50%}
-.sfh-x{margin-left:auto;background:rgba(255,255,255,.15);border:none;width:28px;height:28px;border-radius:50%;cursor:pointer;color:white;font-size:16px;display:flex;align-items:center;justify-content:center;flex-shrink:0;line-height:1}
-.sfh-x:hover{background:rgba(255,255,255,.25)}
-.sfm{flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:8px;scroll-behavior:smooth}
-.sfm::-webkit-scrollbar{width:3px}
-.sfm::-webkit-scrollbar-thumb{background:rgba(255,255,255,.1);border-radius:3px}
-.sfmsg{display:flex;gap:7px;max-width:88%}
-.sfmsg.bot{align-self:flex-start}
-.sfmsg.usr{align-self:flex-end;flex-direction:row-reverse}
-.sfmsg-b{padding:9px 12px;border-radius:14px;font-size:13px;line-height:1.55;font-family:'DM Sans',sans-serif}
-.sfmsg.bot .sfmsg-b{background:#1a2235;color:#e2e8f0;border-radius:4px 14px 14px 14px}
-.sfmsg.usr .sfmsg-b{background:#ff5c1a;color:white;border-radius:14px 4px 14px 14px}
-.sfqr{display:flex;flex-wrap:wrap;gap:5px;padding:0 12px 8px}
-.sfqb{background:rgba(255,92,26,.12);border:1px solid rgba(255,92,26,.3);color:#ff8040;font-size:11px;font-weight:600;padding:5px 11px;border-radius:100px;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s;line-height:1.4}
-.sfqb:hover{background:rgba(255,92,26,.25);color:#fff}
-.sftyp{display:flex;align-items:center;gap:7px;padding:0 12px 4px}
-.sftyp-d{background:#1a2235;border-radius:12px;padding:8px 12px;display:flex;gap:3px;align-items:center}
-.sftyp-d span{width:5px;height:5px;background:#ff8040;border-radius:50%;animation:sfbounce 1.2s infinite}
-.sftyp-d span:nth-child(2){animation-delay:.2s}
-.sftyp-d span:nth-child(3){animation-delay:.4s}
-@keyframes sfbounce{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-5px)}}
-.sfcta-btn{display:block;background:#ff5c1a;color:white;font-family:Sora,sans-serif;font-size:12px;font-weight:700;padding:8px 14px;border-radius:8px;margin-top:7px;text-align:center;border:none;cursor:pointer;width:100%;transition:opacity .2s}
-.sfcta-btn:hover{opacity:.88}
-.sfin{padding:9px 12px;border-top:1px solid rgba(255,255,255,.06);display:flex;gap:7px;align-items:flex-end;background:#0a0d17;flex-shrink:0}
-.sfin-t{flex:1;background:#1a2235;border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:8px 11px;color:#f0f6ff;font-size:13px;font-family:'DM Sans',sans-serif;resize:none;outline:none;min-height:36px;max-height:80px;line-height:1.4}
-.sfin-t:focus{border-color:rgba(255,92,26,.5)}
-.sfin-t::placeholder{color:#4a5568}
-.sfin-s{width:36px;height:36px;border-radius:10px;background:#ff5c1a;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:opacity .2s}
-.sfin-s:disabled{opacity:.35;cursor:not-allowed}
-.sfin-s:not(:disabled):hover{opacity:.85}
-.sfpw{text-align:center;font-size:10px;color:#1e2535;padding:5px;flex-shrink:0}
-@media(max-width:480px){.sfw{width:calc(100vw - 24px);right:12px;bottom:86px}}
-</style>
-<button class="sfb" id="sfBtn" aria-label="Open chat">
-  <div class="sfb-dot"></div>
-  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-</button>
-<div class="sfw" id="sfWin" role="dialog" aria-label="StorezFix chat">
-  <div class="sfh">
-    <div class="sfh-av">&#128736;</div>
-    <div><div class="sfh-name">StorezFix Assistant</div><div class="sfh-stat"><div class="sfh-dot"></div>Online &middot; Replies instantly</div></div>
+<div><div class="sfh-name">StorezFix Assistant</div><div class="sfh-stat"><div class="sfh-dot"></div>Online &middot; Replies instantly</div></div>
     <button class="sfh-x" id="sfClose" aria-label="Close chat">&#10005;</button>
   </div>
   <div class="sfm" id="sfMsgs"></div>
@@ -178,169 +127,6 @@ if(window.gtag){
   </div>
   <div class="sfpw">Powered by StorezFix AI</div>
 </div>
-<script>
-(function(){
-  var SYS='You are the StorezFix Assistant, a helpful advisor for StorezFix digital setup services for USA businesses. Services: Shopify Speed $97/$497, Google Business Profile $97/$197, Google Merchant Center $97/$247, TikTok Shop $197/$497, Schema Markup $97/$197, AI Chatbot $197/$597. All one-time, PayPal protected, 100% money back. Be warm and concise - max 2-3 sentences. Recommend a service once you understand their problem.';
-  var msgs=[],isOpen=false,isBusy=false;
 
-  function init(){
-    var btn=document.getElementById('sfBtn');
-    var cls=document.getElementById('sfClose');
-    var snd=document.getElementById('sfSnd');
-    var inp=document.getElementById('sfIn');
-    if(!btn||!cls||!snd||!inp)return;
-
-    btn.addEventListener('click',function(){toggle();});
-    cls.addEventListener('click',function(){toggle(false);});
-    snd.addEventListener('click',function(){send();});
-    inp.addEventListener('keydown',function(e){
-      if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send();}
-    });
-    inp.addEventListener('input',function(){
-      this.style.height='auto';
-      this.style.height=Math.min(this.scrollHeight,80)+'px';
-    });
-  }
-
-  function toggle(forceState){
-    isOpen = (forceState!==undefined) ? forceState : !isOpen;
-    var win=document.getElementById('sfWin');
-    if(!win)return;
-    if(isOpen){
-      win.classList.add('open');
-      if(msgs.length===0)greet();
-      setTimeout(function(){var i=document.getElementById('sfIn');if(i)i.focus();},300);
-    }else{
-      win.classList.remove('open');
-    }
-  }
-
-  function greet(){
-    addBot('Hey! I am the StorezFix Assistant.<br/><br/>What problem can I help you fix today?');
-    setTimeout(function(){
-      addQR(['Shopify store is slow','Not on Google Maps','Want TikTok Shop','Need a chatbot','Pricing info','All services']);
-    },350);
-  }
-
-  function addBot(txt,ctaLabel,ctaUrl){
-    var m=document.getElementById('sfMsgs');
-    if(!m)return;
-    var d=document.createElement('div');
-    d.className='sfmsg bot';
-    var inner='<div style="width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,#ff5c1a,#e04a0f);display:flex;align-items:center;justify-content:center;font-size:11px;flex-shrink:0;margin-top:2px">&#128736;</div>';
-    inner+='<div><div class="sfmsg-b">'+txt+'</div>';
-    if(ctaLabel&&ctaUrl){
-      var btn=document.createElement('button');
-      btn.className='sfcta-btn';
-      btn.textContent=ctaLabel+' →';
-      btn.addEventListener('click',function(){window.location.href=ctaUrl;});
-      d.innerHTML=inner+'</div>';
-      d.querySelector('.sfmsg-b').insertAdjacentElement('afterend',btn);
-    }else{
-      d.innerHTML=inner+'</div>';
-    }
-    m.appendChild(d);
-    m.scrollTop=m.scrollHeight;
-  }
-
-  function addUsr(txt){
-    var m=document.getElementById('sfMsgs');
-    if(!m)return;
-    var d=document.createElement('div');
-    d.className='sfmsg usr';
-    d.innerHTML='<div class="sfmsg-b">'+escHtml(txt)+'</div>';
-    m.appendChild(d);
-    m.scrollTop=m.scrollHeight;
-  }
-
-  function escHtml(t){
-    return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-  }
-
-  function showTyp(){
-    if(document.getElementById('sfTyp'))return;
-    var m=document.getElementById('sfMsgs');
-    if(!m)return;
-    var d=document.createElement('div');
-    d.className='sftyp';d.id='sfTyp';
-    d.innerHTML='<div style="width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,#ff5c1a,#e04a0f);display:flex;align-items:center;justify-content:center;font-size:11px">&#128736;</div><div class="sftyp-d"><span></span><span></span><span></span></div>';
-    m.appendChild(d);m.scrollTop=m.scrollHeight;
-  }
-
-  function hideTyp(){var t=document.getElementById('sfTyp');if(t)t.remove();}
-
-  function addQR(opts){
-    var c=document.getElementById('sfQR');
-    if(!c)return;
-    c.innerHTML='';
-    var wrap=document.createElement('div');
-    wrap.className='sfqr';
-    opts.forEach(function(o){
-      var b=document.createElement('button');
-      b.className='sfqb';b.textContent=o;
-      b.addEventListener('click',function(){c.innerHTML='';process(o);});
-      wrap.appendChild(b);
-    });
-    c.appendChild(wrap);
-  }
-
-  function getCtaForReply(txt,rep){
-    var t=txt.toLowerCase(),r=rep.toLowerCase();
-    if(t.includes('speed')||r.includes('speed'))return{label:'View Speed Fix',url:'shopify-speed.html'};
-    if(t.includes('map')||t.includes('google business')||r.includes('google business'))return{label:'View GBP Setup',url:'google-business.html'};
-    if(t.includes('shopping')||r.includes('merchant'))return{label:'View GMC Setup',url:'merchant-center.html'};
-    if(t.includes('tiktok')||r.includes('tiktok'))return{label:'View TikTok Setup',url:'tiktok-shop.html'};
-    if(t.includes('schema')||r.includes('schema'))return{label:'View Schema Setup',url:'schema-markup.html'};
-    if(t.includes('chatbot')||r.includes('chatbot'))return{label:'View Chatbot Setup',url:'ai-chatbot.html'};
-    if(msgs.length>3)return{label:'See All Services',url:'index.html#services'};
-    return null;
-  }
-
-  async function process(txt){
-    addUsr(txt);
-    msgs.push({role:'user',content:txt});
-    var snd=document.getElementById('sfSnd');
-    if(snd)snd.disabled=true;
-    isBusy=true;showTyp();
-    var qr=document.getElementById('sfQR');if(qr)qr.innerHTML='';
-    try{
-      var body={model:'claude-sonnet-4-20250514',max_tokens:400,system:SYS,messages:msgs};
-      var res=await fetch('https://api.anthropic.com/v1/messages',{
-        method:'POST',
-        headers:{'Content-Type':'application/json'},
-        body:JSON.stringify(body)
-      });
-      var data=await res.json();
-      hideTyp();
-      var rep=(data.content&&data.content[0]&&data.content[0].text)||'Sorry, something went wrong. Email hello@storezfix.com for help.';
-      msgs.push({role:'assistant',content:rep});
-      var cta=getCtaForReply(txt,rep);
-      addBot(rep,cta?cta.label:null,cta?cta.url:null);
-      if(msgs.length<=2){addQR(['Tell me more','What does it cost?','How fast?','Is there a guarantee?']);}
-      else{addQR(['Book a service','How does payment work?','Email your team']);}
-    }catch(err){
-      hideTyp();
-      addBot('Something went wrong. Email hello@storezfix.com and we will get back to you.');
-    }
-    if(snd)snd.disabled=false;
-    isBusy=false;
-  }
-
-  function send(){
-    var inp=document.getElementById('sfIn');
-    if(!inp||isBusy)return;
-    var t=inp.value.trim();
-    if(!t)return;
-    inp.value='';inp.style.height='auto';
-    process(t);
-  }
-
-  if(document.readyState==='loading'){
-    document.addEventListener('DOMContentLoaded',init);
-  }else{
-    init();
-  }
-})();
-</script>
 </body>
 </html>
