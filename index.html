@@ -2,116 +2,194 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Google Merchant Center Setup Guide for Shopify Stores (2026) | StorezFix</title>
-<meta name="description" content="Complete guide to Google Merchant Center for Shopify. Product feed, approval, Shopping listings — everything covered."/>
-<link rel="canonical" href="https://storezfix.com/blog/google-merchant-center-shopify-setup.html"/>
-<meta property="og:title" content="Google Merchant Center Setup Guide for Shopify Stores (2026) | StorezFix"/><meta property="og:description" content="Complete guide to Google Merchant Center for Shopify. Product feed, approval, Shopping listings — everything covered."/>
-<meta property="og:type" content="article"/><meta property="og:url" content="https://storezfix.com/blog/google-merchant-center-shopify-setup.html"/>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI3IiBmaWxsPSIjZmY1YzFhIi8+PHBvbHlnb24gcG9pbnRzPSIyMSw2IDE2LDE2IDIwLDE2IDE1LDI2IDI0LDE0IDIwLDE0IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg=="/>
-<link rel="manifest" href="../manifest.json"/>
-<meta name="theme-color" content="#ff5c1a"/>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Google Merchant Center Setup Guide for Shopify Stores", "description": "Complete guide to Google Merchant Center for Shopify. Product feed, approval, Shopping listings \u2014 everything covered.", "datePublished": "2026-05-15", "dateModified": "2026-05-15", "author": {"@type": "Organization", "name": "StorezFix"}, "publisher": {"@type": "Organization", "name": "StorezFix", "url": "https://storezfix.com"}, "url": "https://storezfix.com/blog/google-merchant-center-shopify-setup.html"}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need Google Ads to use Google Merchant Center?", "acceptedAnswer": {"@type": "Answer", "text": "No. Google Merchant Center gives you access to free product listings (Shopping tab, Image search, Google Lens) even without running paid ads. It is worth setting up for the free traffic alone."}}, {"@type": "Question", "name": "Why was my Merchant Center account disapproved?", "acceptedAnswer": {"@type": "Answer", "text": "Common reasons: misrepresentation of products or pricing, landing page issues (product page differs from feed), missing required product data (GTIN, description, images), or policy violations. Check the Diagnostics tab for specific disapproval reasons."}}, {"@type": "Question", "name": "How do I fix feed errors in Merchant Center?", "acceptedAnswer": {"@type": "Answer", "text": "Go to Products, then Diagnostics in Merchant Center. Each error has a description and affected products. Fix the underlying product data in Shopify or your feed settings, then request a data refresh."}}, {"@type": "Question", "name": "How long does it take for products to appear on Google Shopping?", "acceptedAnswer": {"@type": "Answer", "text": "After your account is approved and feed is uploaded, products typically appear within 3-7 business days. Some products can appear within hours. New accounts sometimes take longer as Google evaluates trustworthiness."}}, {"@type": "Question", "name": "Does Merchant Center work with all Shopify plans?", "acceptedAnswer": {"@type": "Answer", "text": "Yes \u2014 Google Merchant Center integration works with all Shopify plans. The Google and YouTube app in the Shopify App Store connects your store to Merchant Center automatically."}}]}</script>
-<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'DM Sans',sans-serif;background:#fff;color:#0c0f1a;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-.ub{background:linear-gradient(90deg,#0c0f1a,#141927);padding:9px 24px;text-align:center;font-size:12px;font-weight:500;color:rgba(255,255,255,.8);display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
-.ub-dot{width:6px;height:6px;border-radius:50%;background:#00c47a;animation:pulse 1.8s infinite;flex-shrink:0}
+<title>StorezFix — Digital Setup Services for USA Businesses</title>
+<meta name="description" content="Fast, affordable digital setup services. Google Business, Merchant Center, TikTok Shop, Schema Markup, Shopify Speed, AI Chatbot. From $97. PayPal protected."/>
+<link rel="canonical" href="https://storezfix.com/"/>
+<meta property="og:title" content="StorezFix — Digital Setup Services for USA Businesses"/><meta property="og:description" content="Fast, affordable digital setup services. Google Business, Merchant Center, TikTok Shop, Schema Markup, Shopify Speed, AI Chatbot. From $97. PayPal protected."/><meta property="og:type" content="website"/>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI3IiBmaWxsPSIjZmY1YzFhIi8+PHBvbHlnb24gcG9pbnRzPSIyMSw2IDE2LDE2IDIwLDE2IDE1LDI2IDI0LDE0IDIwLDE0IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg=="/><link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI3IiBmaWxsPSIjZmY1YzFhIi8+PHBvbHlnb24gcG9pbnRzPSIyMSw2IDE2LDE2IDIwLDE2IDE1LDI2IDI0LDE0IDIwLDE0IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg=="/><link rel="manifest" href="manifest.json"/><meta name="theme-color" content="#ff5c1a"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "StorezFix", "url": "https://storezfix.com", "email": "hello@storezfix.com", "description": "Professional digital setup services for USA businesses."}</script><link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+
+<style>*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:#fff;color:#0c0f1a;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.ub{background:linear-gradient(90deg,#0c0f1a,#141927);padding:10px 24px;text-align:center;font-size:13px;font-weight:500;color:rgba(255,255,255,.85);display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
+.ub-dot{width:7px;height:7px;border-radius:50%;background:#00c47a;box-shadow:0 0 8px #00c47a;animation:pulse 1.8s infinite;flex-shrink:0}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.7;transform:scale(1.4)}}
+.ub-bold{font-weight:700;color:#fff}
+.ub-tag{background:rgba(255,92,26,.2);color:#ff5c1a;font-weight:700;font-size:11px;padding:3px 10px;border-radius:100px;border:1px solid rgba(255,92,26,.3)}
 .nav{position:sticky;top:0;z-index:9000;background:rgba(255,255,255,.97);backdrop-filter:blur(16px);border-bottom:1px solid #e8ecf0;padding:0 48px;height:66px;display:flex;align-items:center;justify-content:space-between;gap:16px}
-.nav-logo{display:flex;align-items:center;text-decoration:none}
-.nav-logo img{height:34px}
+.nav-logo{display:flex;align-items:center;text-decoration:none;flex-shrink:0}
+.nav-logo img{height:34px;width:auto;display:block}
 .nav-links{display:flex;align-items:center;gap:4px}
-.nav-link{font-size:14px;font-weight:600;color:#4a5568;text-decoration:none;padding:8px 14px;border-radius:8px;transition:color .2s,background .2s}
-.nav-link:hover{color:#ff5c1a;background:#fff4f0}
-.nav-link.active{color:#ff5c1a}
-.nav-cta{background:#ff5c1a;color:#fff;font-family:'Sora',sans-serif;font-size:13px;font-weight:700;padding:10px 20px;border-radius:10px;text-decoration:none;transition:all .2s;white-space:nowrap}
-.nav-cta:hover{background:#e04a0f;transform:translateY(-1px)}
-.nav-ham{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:8px}
+.nav-dd{position:relative}
+.nav-link{font-size:14px;font-weight:600;color:#4a5568;text-decoration:none;padding:8px 14px;border-radius:8px;transition:all .2s;display:flex;align-items:center;gap:4px;cursor:pointer;background:none;border:none;font-family:'DM Sans',sans-serif;white-space:nowrap}
+.nav-link:hover,.nav-link.active{color:#ff5c1a;background:#fff4f0}
+.dd-menu{position:absolute;top:100%;left:0;background:#fff;border:1.5px solid #e8ecf0;border-radius:16px;padding:8px;box-shadow:0 20px 48px rgba(0,0,0,.12);min-width:290px;display:none;z-index:9100;margin-top:6px}
+.dd-menu.open{display:block}
+.dd-item{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:10px;text-decoration:none;color:#0c0f1a;transition:background .15s}
+.dd-item:hover{background:#fff4f0}
+.dd-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.dd-name{font-size:14px;font-weight:600;color:#0c0f1a}
+.dd-price{font-size:12px;color:#94a3b8}
+.nav-cta{background:#ff5c1a;color:#fff;font-family:'Sora',sans-serif;font-size:13px;font-weight:700;padding:10px 20px;border-radius:10px;text-decoration:none;transition:all .2s;white-space:nowrap;flex-shrink:0}
+.nav-cta:hover{background:#e04a0f;transform:translateY(-1px);box-shadow:0 5px 16px rgba(255,92,26,.35)}
+.nav-ham{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:8px;flex-shrink:0}
 .nav-ham span{display:block;width:22px;height:2px;background:#0c0f1a;border-radius:2px;transition:all .28s}
 .nav-ham.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
-.nav-ham.open span:nth-child(2){opacity:0}
+.nav-ham.open span:nth-child(2){opacity:0;transform:scaleX(0)}
 .nav-ham.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
 .mob-menu{display:none;position:fixed;inset:66px 0 0 0;background:rgba(12,15,26,.98);z-index:8999;overflow-y:auto;padding:20px 16px 40px}
 .mob-menu.open{display:block}
-.mob-link{display:flex;align-items:center;gap:10px;padding:12px;color:rgba(255,255,255,.85);text-decoration:none;font-size:15px;font-weight:500;border-radius:10px;transition:background .2s}
-.mob-link:hover{background:rgba(255,92,26,.15);color:#ff5c1a}
-.mob-cta{display:block;background:#ff5c1a;color:#fff;font-family:'Sora',sans-serif;font-size:15px;font-weight:700;padding:15px;border-radius:12px;text-align:center;text-decoration:none;margin-top:20px}
-.blog-hero{background:#f7f8fa;border-bottom:1px solid #e8ecf0;padding:56px 0 48px}
-.blog-container{max-width:780px;margin:0 auto;padding:0 24px}
-.blog-wide{max-width:1100px;margin:0 auto;padding:0 24px}
-.blog-tag{display:inline-flex;align-items:center;gap:6px;background:#fff4f0;border:1px solid rgba(255,92,26,.2);border-radius:100px;padding:5px 14px;font-size:11px;font-weight:700;color:#ff5c1a;margin-bottom:16px;text-transform:uppercase;letter-spacing:.06em}
-.blog-h1{font-family:'Sora',sans-serif;font-size:clamp(26px,4vw,40px);font-weight:800;line-height:1.1;letter-spacing:-.03em;color:#0c0f1a;margin-bottom:16px}
-.blog-meta{display:flex;align-items:center;gap:16px;font-size:13px;color:#94a3b8;flex-wrap:wrap;margin-bottom:20px}
-.blog-intro{font-size:18px;color:#4a5568;line-height:1.75;border-left:3px solid #ff5c1a;padding-left:20px;margin-top:8px}
-.blog-body{padding:56px 0 72px}
-.blog-body h2{font-family:'Sora',sans-serif;font-size:clamp(20px,3vw,26px);font-weight:800;color:#0c0f1a;margin:40px 0 14px;letter-spacing:-.02em;line-height:1.2}
-.blog-body h3{font-family:'Sora',sans-serif;font-size:18px;font-weight:700;color:#0c0f1a;margin:28px 0 10px}
-.blog-body p{font-size:16px;color:#4a5568;line-height:1.8;margin-bottom:18px}
-.blog-body p b,.blog-body p strong{color:#0c0f1a;font-weight:700}
-.blog-body ul,.blog-body ol{margin:0 0 20px 24px}
-.blog-body li{font-size:16px;color:#4a5568;line-height:1.75;margin-bottom:8px}
-.blog-body li b{color:#0c0f1a;font-weight:700}
-.blog-body a{color:#ff5c1a;text-decoration:none;font-weight:600}
-.blog-body a:hover{text-decoration:underline}
-.callout{border-radius:16px;padding:24px 28px;margin:28px 0}
-.callout-orange{background:#fff4f0;border:1.5px solid rgba(255,92,26,.2)}
-.callout-green{background:#f0fff8;border:1.5px solid rgba(0,196,122,.2)}
-.callout-dark{background:#0c0f1a;color:#fff}
-.callout-title{font-family:'Sora',sans-serif;font-size:13px;font-weight:800;margin-bottom:8px;text-transform:uppercase;letter-spacing:.05em}
-.callout-orange .callout-title{color:#ff5c1a}
-.callout-green .callout-title{color:#009960}
-.callout-dark .callout-title{color:#ff5c1a}
-.callout p{font-size:15px;margin-bottom:0;color:#4a5568}
-.callout-dark p{color:rgba(255,255,255,.7)}
-.stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:28px 0}
-.stat-box{background:#f7f8fa;border:1.5px solid #e8ecf0;border-radius:16px;padding:20px;text-align:center}
-.stat-num{font-family:'Sora',sans-serif;font-size:32px;font-weight:800;color:#ff5c1a;line-height:1}
-.stat-label{font-size:13px;color:#4a5568;margin-top:6px;line-height:1.4}
-.cta-strip{background:linear-gradient(135deg,#0c0f1a,#141927);border-radius:24px;padding:48px;text-align:center;margin:48px 0}
-.cta-strip h2{font-family:'Sora',sans-serif;font-size:clamp(22px,3vw,30px);font-weight:800;color:#fff;margin-bottom:12px;letter-spacing:-.02em}
-.cta-strip h2 span{color:#ff5c1a}
-.cta-strip p{font-size:15px;color:rgba(255,255,255,.5);margin-bottom:28px;line-height:1.65}
-.cta-strip .cta-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
-.cta-strip .btn{display:inline-flex;align-items:center;background:#ff5c1a;color:#fff;font-family:'Sora',sans-serif;font-size:15px;font-weight:700;padding:14px 28px;border-radius:12px;text-decoration:none;transition:all .2s}
-.cta-strip .btn:hover{background:#e04a0f;transform:translateY(-2px)}
-.cta-strip .btn-sec{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.15)}
-.cta-strip .btn-sec:hover{background:rgba(255,255,255,.15)}
-.blog-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:14px;border-radius:12px;overflow:hidden}
-.blog-table th{background:#0c0f1a;color:#fff;font-family:'Sora',sans-serif;font-weight:700;padding:12px 16px;text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:.05em}
-.blog-table td{padding:11px 16px;border-bottom:1px solid #e8ecf0;color:#4a5568}
-.blog-table tr:last-child td{border-bottom:none}
-.blog-table tr:nth-child(even) td{background:#f7f8fa}
-.blog-table b{color:#0c0f1a}
-.blog-faq{margin:32px 0}
-.bf{background:#f7f8fa;border:1.5px solid #e8ecf0;border-radius:14px;overflow:hidden;margin-bottom:8px;cursor:pointer;transition:border-color .2s}
-.bf:hover,.bf.open{border-color:#ff5c1a}
-.bf.open{background:#fff9f7}
-.bf-q{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;font-family:'Sora',sans-serif;font-size:15px;font-weight:700;color:#0c0f1a;gap:12px}
-.bf-icon{font-size:18px;color:#ff5c1a;transition:transform .25s;flex-shrink:0}
-.bf.open .bf-icon{transform:rotate(45deg)}
-.bf-a{display:none;padding:0 20px 16px;font-size:15px;color:#4a5568;line-height:1.75}
-.bf.open .bf-a{display:block}
-.blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:36px}
-.blog-card{background:#fff;border:1.5px solid #e8ecf0;border-radius:18px;padding:28px;text-decoration:none;color:#0c0f1a;display:block;transition:all .25s}
-.blog-card:hover{border-color:#ff5c1a;transform:translateY(-3px);box-shadow:0 12px 32px rgba(255,92,26,.08)}
-.bc-tag{font-size:11px;font-weight:700;color:#ff5c1a;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
-.bc-title{font-family:'Sora',sans-serif;font-size:17px;font-weight:800;color:#0c0f1a;line-height:1.3;margin-bottom:10px}
-.bc-desc{font-size:14px;color:#4a5568;line-height:1.6;margin-bottom:14px}
-.bc-meta{font-size:12px;color:#94a3b8}
-.bc-read{display:flex;align-items:center;gap:5px;font-size:13px;font-weight:700;color:#ff5c1a;margin-top:14px}
-.breadcrumb{font-size:13px;color:#94a3b8;margin-bottom:20px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
-.breadcrumb a{color:#94a3b8;text-decoration:none}
-.breadcrumb a:hover{color:#ff5c1a}
-.blog-layout{display:grid;grid-template-columns:1fr 260px;gap:48px;align-items:start}
-.toc{position:sticky;top:86px;background:#f7f8fa;border:1.5px solid #e8ecf0;border-radius:16px;padding:24px}
-.toc-title{font-family:'Sora',sans-serif;font-size:13px;font-weight:700;color:#0c0f1a;margin-bottom:14px;text-transform:uppercase;letter-spacing:.06em}
-.toc a{display:block;font-size:13px;color:#4a5568;text-decoration:none;padding:5px 0;border-bottom:1px solid #e8ecf0;transition:color .2s;line-height:1.5}
-.toc a:hover{color:#ff5c1a}
-.toc a:last-child{border-bottom:none}
+.mob-section{margin-bottom:20px}
+.mob-label{font-size:11px;font-weight:700;color:rgba(255,255,255,.3);letter-spacing:.1em;text-transform:uppercase;padding:0 12px;margin-bottom:6px;display:block}
+.mob-link{display:flex;align-items:center;gap:12px;padding:12px;color:rgba(255,255,255,.85);text-decoration:none;font-size:15px;font-weight:500;border-radius:10px;transition:background .2s}
+.mob-link:hover,.mob-link:active{background:rgba(255,92,26,.15);color:#ff5c1a}
+.mob-link-price{font-size:12px;color:rgba(255,255,255,.35);margin-left:auto}
+.mob-div{height:1px;background:rgba(255,255,255,.08);margin:16px 0}
+.mob-cta{display:block;background:#ff5c1a;color:#fff;font-family:'Sora',sans-serif;font-size:15px;font-weight:700;padding:16px;border-radius:12px;text-align:center;text-decoration:none;margin-top:20px}
+.section-tag{display:inline-flex;align-items:center;gap:6px;background:#fff4f0;border:1px solid rgba(255,92,26,.2);border-radius:100px;padding:6px 14px;font-size:11px;font-weight:700;color:#ff5c1a;margin-bottom:16px;text-transform:uppercase;letter-spacing:.06em}
+.section-h2{font-family:'Sora',sans-serif;font-size:clamp(24px,4vw,38px);font-weight:800;letter-spacing:-.03em;color:#0c0f1a;margin-bottom:12px;line-height:1.1}
+.section-h2 span{color:#ff5c1a}
+.section-sub{font-size:16px;color:#4a5568;line-height:1.65;margin-bottom:40px;max-width:540px}
+.container{max-width:1160px;margin:0 auto;padding:0 48px}
+.container-sm{max-width:800px;margin:0 auto;padding:0 48px}
+.btn-primary{display:inline-flex;align-items:center;justify-content:center;background:#ff5c1a;color:#fff;font-family:'Sora',sans-serif;font-size:15px;font-weight:700;padding:14px 28px;border-radius:12px;text-decoration:none;border:none;cursor:pointer;transition:all .2s;white-space:nowrap}
+.btn-primary:hover{background:#e04a0f;transform:translateY(-2px);box-shadow:0 8px 24px rgba(255,92,26,.35)}
+.btn-primary:active{transform:scale(.97)!important}
+.btn-secondary{display:inline-flex;align-items:center;justify-content:center;background:#fff;color:#0c0f1a;font-family:'Sora',sans-serif;font-size:15px;font-weight:700;padding:14px 28px;border-radius:12px;text-decoration:none;border:2px solid #0c0f1a;cursor:pointer;transition:all .2s;white-space:nowrap}
+.btn-secondary:hover{background:#0c0f1a;color:#fff}
+.btn-secondary:active{transform:scale(.97)!important}
+.btn-group{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.hero-sp{padding:64px 0 0;text-align:center}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:#fff4f0;border:1px solid rgba(255,92,26,.2);border-radius:100px;padding:7px 18px;font-size:12px;font-weight:700;color:#ff5c1a;margin-bottom:20px;letter-spacing:.04em;text-transform:uppercase}
+.hero-h1{font-family:'Sora',sans-serif;font-size:clamp(30px,5vw,52px);font-weight:800;line-height:1.05;letter-spacing:-.04em;color:#0c0f1a;margin-bottom:16px}
+.hero-h1 .hl{color:#ff5c1a}.hero-h1 .hl2{color:#00c47a}
+.hero-sub{font-size:18px;color:#4a5568;line-height:1.65;margin-bottom:32px;max-width:620px;margin-left:auto;margin-right:auto}
+.hero-stats{display:flex;justify-content:center;gap:40px;padding:28px 0;border-top:1px solid #e8ecf0;border-bottom:1px solid #e8ecf0;flex-wrap:wrap;margin:28px 0}
+.hs{text-align:center}
+.hs-num{font-family:'Sora',sans-serif;font-size:30px;font-weight:800;color:#0c0f1a;letter-spacing:-.04em;line-height:1}
+.hs-num span{color:#ff5c1a}
+.hs-label{font-size:12px;color:#94a3b8;margin-top:4px}
+.hero-trust{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:20px}
+.htb{display:flex;align-items:center;gap:5px;font-size:12px;font-weight:600;color:#4a5568;background:#f7f8fa;border:1px solid #e8ecf0;padding:5px 12px;border-radius:100px}
+.pricing-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.pc{border:2px solid #e8ecf0;border-radius:24px;padding:36px;position:relative;background:#fff;transition:all .3s ease}
+.pc:hover{border-color:#ff5c1a;box-shadow:0 20px 60px rgba(255,92,26,.08);transform:translateY(-3px)}
+.pc.featured{border-color:#ff5c1a;background:linear-gradient(145deg,#fff9f7,#fff)}
+.pc.featured:hover{transform:translateY(-4px);box-shadow:0 24px 64px rgba(255,92,26,.15)}
+.pc-badge{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:#ff5c1a;color:#fff;font-family:'Sora',sans-serif;font-size:12px;font-weight:700;padding:5px 18px;border-radius:100px;white-space:nowrap}
+.pc-tag{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;color:#4a5568;background:#f7f8fa;border:1px solid #e8ecf0;border-radius:100px;padding:4px 12px;margin-bottom:14px}
+.pc-name{font-family:'Sora',sans-serif;font-size:22px;font-weight:800;color:#0c0f1a;margin-bottom:6px;letter-spacing:-.03em}
+.pc-tagline{font-size:14px;color:#4a5568;margin-bottom:20px;line-height:1.5}
+.pc-price{display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
+.pc-amount{font-family:'Sora',sans-serif;font-size:50px;font-weight:800;color:#0c0f1a;letter-spacing:-.04em;line-height:1}
+.pc-per{font-size:14px;color:#94a3b8}
+.pc-delivery{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;color:#009960;background:#f0fff8;padding:7px 14px;border-radius:100px;margin-bottom:20px;border:1px solid rgba(0,196,122,.2)}
+.pc-guarantee{display:flex;align-items:center;gap:8px;background:#fff4f0;border:1px solid rgba(255,92,26,.15);border-radius:12px;padding:11px 14px;margin-bottom:20px;font-size:13px;font-weight:600;color:#0c0f1a}
+.pc-inc-title{font-size:11px;font-weight:700;color:#94a3b8;text-transform:uppercase;letter-spacing:.1em;margin-bottom:10px}
+.pc-inc-item{display:flex;align-items:flex-start;gap:8px;font-size:13px;color:#4a5568;margin-bottom:8px;line-height:1.4}
+.pc-inc-item::before{content:'✓';color:#00c47a;font-weight:800;font-size:13px;flex-shrink:0;margin-top:1px}
+.pc-inc-item.star::before{content:'⭐';font-size:11px}
+.pc-inc-item.star{color:#0c0f1a;font-weight:600}
+.pc-btn{display:block;width:100%;font-family:'Sora',sans-serif;font-size:15px;font-weight:700;padding:14px;border-radius:12px;text-align:center;cursor:pointer;border:none;transition:all .2s}
+.pc-btn-main{background:#ff5c1a;color:#fff;box-shadow:0 6px 20px rgba(255,92,26,.3)}
+.pc-btn-main:hover{background:#e04a0f;transform:translateY(-2px);box-shadow:0 10px 28px rgba(255,92,26,.4)}
+.pc-btn-main:active{transform:scale(.97)!important}
+.pc-btn-sec{background:#f7f8fa;color:#0c0f1a;border:2px solid #e8ecf0}
+.pc-btn-sec:hover{border-color:#ff5c1a;color:#ff5c1a;background:#fff4f0}
+.pc-btn-sec:active{transform:scale(.97)!important}
+.pc-note{text-align:center;font-size:11px;color:#94a3b8;margin-top:8px}
+.diff{background:#0c0f1a;padding:72px 0}
+.diff-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
+.diff-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:26px;transition:all .3s ease;cursor:default}
+.diff-card:hover{border-color:rgba(255,92,26,.5);background:rgba(255,92,26,.07);transform:translateY(-3px)}
+.diff-card.hl{background:rgba(255,92,26,.08);border-color:rgba(255,92,26,.2)}
+.diff-emoji{font-size:28px;margin-bottom:12px;display:block}
+.diff-title{font-family:'Sora',sans-serif;font-size:16px;font-weight:700;color:#fff;margin-bottom:8px}
+.diff-desc{font-size:14px;color:rgba(255,255,255,.5);line-height:1.6}
+.pain{padding:72px 0}
+.pain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.pain-card{background:#f7f8fa;border:1.5px solid #e8ecf0;border-radius:18px;padding:28px;position:relative;overflow:hidden;transition:all .3s ease}
+.pain-card:hover{border-color:rgba(255,59,59,.3);transform:translateY(-2px);box-shadow:0 12px 32px rgba(255,59,59,.08)}
+.pain-card::after{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#ff3b3b,#ff8080)}
+.pain-emoji{font-size:28px;margin-bottom:12px;display:block}
+.pain-title{font-family:'Sora',sans-serif;font-size:16px;font-weight:700;color:#0c0f1a;margin-bottom:8px}
+.pain-desc{font-size:14px;color:#4a5568;line-height:1.65}
+.pain-stat{margin-top:12px;background:#fff5f5;border-radius:8px;padding:7px 12px;font-size:12px;font-weight:600;color:#ff3b3b}
+.how{background:#f7f8fa;border-top:1px solid #e8ecf0;border-bottom:1px solid #e8ecf0;padding:72px 0}
+.how-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:40px;position:relative}
+.how-steps::before{content:'';position:absolute;top:27px;left:5%;right:5%;height:1px;background:#e8ecf0;z-index:0}
+.how-step{text-align:center;position:relative;z-index:1}
+.how-num{width:54px;height:54px;border-radius:50%;background:#ff5c1a;color:#fff;font-family:'Sora',sans-serif;font-size:18px;font-weight:800;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;box-shadow:0 5px 18px rgba(255,92,26,.3);transition:transform .2s ease}
+.how-step:hover .how-num{transform:scale(1.08)}
+.how-title{font-family:'Sora',sans-serif;font-size:14px;font-weight:700;color:#0c0f1a;margin-bottom:5px}
+.how-desc{font-size:12px;color:#4a5568;line-height:1.5}
+.how-time{font-size:11px;font-weight:700;color:#ff5c1a;margin-top:4px}
+.guarantee{padding:72px 0}
+.gbox{background:linear-gradient(135deg,#0c0f1a,#141927);border-radius:28px;padding:56px;display:grid;grid-template-columns:1fr auto;gap:48px;align-items:center}
+.gbox-left h2{font-family:'Sora',sans-serif;font-size:clamp(24px,3vw,34px);font-weight:800;color:#fff;letter-spacing:-.03em;margin-bottom:14px;line-height:1.1}
+.gbox-left h2 span{color:#ff5c1a}
+.gbox-left p{font-size:15px;color:rgba(255,255,255,.5);line-height:1.7;margin-bottom:24px}
+.gbox-items{display:flex;flex-direction:column;gap:12px}
+.gbox-item{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:rgba(255,255,255,.8)}
+.gbox-icon{width:22px;height:22px;border-radius:50%;background:rgba(0,196,122,.2);display:flex;align-items:center;justify-content:center;font-size:10px;flex-shrink:0;margin-top:2px}
+.gbox-right{text-align:center;min-width:200px}
+.gbox-shield{font-size:80px;display:block;margin-bottom:12px;filter:drop-shadow(0 0 24px rgba(255,92,26,.25));animation:float 3s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.gbox-gt{font-family:'Sora',sans-serif;font-size:18px;font-weight:800;color:#fff;margin-bottom:6px}
+.gbox-gs{font-size:13px;color:rgba(255,255,255,.4);line-height:1.6}
+.testimonials{padding:72px 0;background:#f7f8fa;border-top:1px solid #e8ecf0;border-bottom:1px solid #e8ecf0}
+.test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
+.tc{background:#fff;border:1.5px solid #e8ecf0;border-radius:18px;padding:26px;transition:all .3s ease}
+.tc:hover{border-color:#ff5c1a;transform:translateY(-4px);box-shadow:0 16px 40px rgba(255,92,26,.08)}
+.tc.ft{border-color:#ff5c1a;background:#fff9f7}
+.tc-stars{color:#ffb800;font-size:13px;margin-bottom:10px;letter-spacing:3px}
+.tc-text{font-size:14px;color:#4a5568;line-height:1.75;font-style:italic;margin-bottom:14px}
+.tc-text b{color:#0c0f1a;font-style:normal;font-weight:600}
+.tc-div{height:1px;background:#e8ecf0;margin-bottom:12px}
+.tc-author{display:flex;align-items:center;gap:10px}
+.tc-av{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Sora',sans-serif;font-size:12px;font-weight:800;color:#fff;flex-shrink:0}
+.tc-name{font-family:'Sora',sans-serif;font-size:14px;font-weight:700;color:#0c0f1a}
+.tc-role{font-size:12px;color:#94a3b8}
+.tc-result{margin-top:10px;background:#f0fff8;border-radius:8px;padding:6px 12px;font-size:12px;font-weight:600;color:#009960}
+.faq{padding:72px 0}
+.faq-list{margin-top:36px;display:flex;flex-direction:column;gap:8px}
+.fi{background:#f7f8fa;border:1.5px solid #e8ecf0;border-radius:14px;overflow:hidden;cursor:pointer;transition:all .2s}
+.fi:hover,.fi.open{border-color:#ff5c1a}
+.fi.open{background:#fff9f7}
+.fi-q{padding:16px 20px;display:flex;justify-content:space-between;align-items:center;font-family:'Sora',sans-serif;font-size:15px;font-weight:700;color:#0c0f1a;gap:12px}
+.fi-icon{font-size:20px;color:#ff5c1a;transition:transform .25s;flex-shrink:0}
+.fi.open .fi-icon{transform:rotate(45deg)}
+.fi-a{display:none;padding:0 20px 16px;font-size:14px;color:#4a5568;line-height:1.75}
+.fi.open .fi-a{display:block}
+.fi-a b{color:#0c0f1a;font-weight:600}
+.final-cta{padding:80px 0;background:#0c0f1a}
+.fc-tag{display:inline-flex;align-items:center;gap:8px;background:rgba(255,92,26,.15);border:1px solid rgba(255,92,26,.25);border-radius:100px;padding:7px 18px;font-size:12px;font-weight:700;color:#ff5c1a;margin-bottom:16px;text-transform:uppercase;letter-spacing:.04em}
+.fc-h2{font-family:'Sora',sans-serif;font-size:clamp(28px,4vw,44px);font-weight:800;color:#fff;letter-spacing:-.04em;margin-bottom:12px;line-height:1.1}
+.fc-h2 span{color:#ff5c1a}
+.fc-sub{font-size:16px;color:rgba(255,255,255,.45);line-height:1.65;margin-bottom:44px}
+.fc-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.fc-card{background:rgba(255,255,255,.05);border:1.5px solid rgba(255,255,255,.1);border-radius:20px;padding:30px;text-align:center;transition:all .3s ease}
+.fc-card:hover{border-color:rgba(255,255,255,.2);background:rgba(255,255,255,.08)}
+.fc-card.ft{border-color:#ff5c1a;background:rgba(255,92,26,.07)}
+.fc-card.ft:hover{box-shadow:0 16px 48px rgba(255,92,26,.2)}
+.fc-name{font-family:'Sora',sans-serif;font-size:14px;font-weight:700;color:rgba(255,255,255,.55);margin-bottom:8px}
+.fc-price{font-family:'Sora',sans-serif;font-size:48px;font-weight:800;color:#fff;letter-spacing:-.04em;line-height:1;margin-bottom:5px}
+.fc-note{font-size:13px;color:rgba(255,255,255,.3);margin-bottom:14px}
+.fc-del{display:inline-flex;align-items:center;gap:6px;background:rgba(0,196,122,.12);border:1px solid rgba(0,196,122,.2);border-radius:100px;padding:5px 14px;font-size:12px;font-weight:700;color:#00c47a;margin-bottom:18px}
+.fc-btn{display:block;width:100%;font-family:'Sora',sans-serif;font-size:15px;font-weight:700;padding:14px;border-radius:12px;border:none;cursor:pointer;transition:all .2s}
+.fc-btn-main{background:#ff5c1a;color:#fff;box-shadow:0 6px 18px rgba(255,92,26,.4)}
+.fc-btn-main:hover{background:#e04a0f;transform:translateY(-2px)}
+.fc-btn-main:active{transform:scale(.97)!important}
+.fc-btn-sec{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.12)}
+.fc-btn-sec:hover{background:rgba(255,255,255,.14)}
+.fc-btn-sec:active{transform:scale(.97)!important}
+.fc-secure{font-size:11px;color:rgba(255,255,255,.25);margin-top:8px}
 .site-footer{background:#0c0f1a;padding:56px 0 0}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;padding-bottom:48px}
-.footer-tagline{font-size:14px;color:rgba(255,255,255,.4);line-height:1.65;margin-bottom:16px;margin-top:10px}
+.footer-logo img{height:32px;margin-bottom:12px;display:block}
+.footer-tagline{font-size:14px;color:rgba(255,255,255,.4);line-height:1.65;margin-bottom:16px}
 .footer-email a{color:#ff5c1a;text-decoration:none;font-size:14px;font-weight:600}
 .footer-col-title{font-family:'Sora',sans-serif;font-size:12px;font-weight:700;color:rgba(255,255,255,.4);margin-bottom:14px;text-transform:uppercase;letter-spacing:.08em}
 .footer-links{list-style:none;display:flex;flex-direction:column;gap:9px}
@@ -121,74 +199,203 @@
 .footer-copy{font-size:12px;color:rgba(255,255,255,.2)}
 .footer-trust{display:flex;gap:14px;flex-wrap:wrap}
 .footer-trust span{font-size:12px;color:rgba(255,255,255,.3)}
-.anim{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+.anim{opacity:0;transform:translateY(28px);transition:opacity .65s cubic-bezier(.25,.46,.45,.94),transform .65s cubic-bezier(.25,.46,.45,.94)}
 .anim.in{opacity:1;transform:translateY(0)}
-@media(max-width:900px){.nav{padding:0 20px}.nav-links,.nav-cta{display:none}.nav-ham{display:flex}.blog-layout{grid-template-columns:1fr}.toc{display:none}.stat-row{grid-template-columns:1fr 1fr}.blog-grid{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr;gap:24px}}
-@media(max-width:600px){.blog-grid{grid-template-columns:1fr}.stat-row{grid-template-columns:1fr}.cta-strip{padding:32px 20px}.blog-container,.blog-wide{padding:0 16px}.footer-grid{grid-template-columns:1fr}}
-</style>
+.anim-fade{opacity:0;transition:opacity .7s ease}
+.anim-fade.in{opacity:1}
+.anim-left{opacity:0;transform:translateX(-36px);transition:opacity .7s ease,transform .7s ease}
+.anim-left.in{opacity:1;transform:translateX(0)}
+.anim-right{opacity:0;transform:translateX(36px);transition:opacity .7s ease,transform .7s ease}
+.anim-right.in{opacity:1;transform:translateX(0)}
+.anim-scale{opacity:0;transform:scale(.94);transition:opacity .6s ease,transform .6s ease}
+.anim-scale.in{opacity:1;transform:scale(1)}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}.d4{transition-delay:.4s}.d5{transition-delay:.5s}.d6{transition-delay:.6s}
+@keyframes heroFade{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+.ha{animation:heroFade .75s cubic-bezier(.25,.46,.45,.94) both}
+.ha.d1{animation-delay:.12s}.ha.d2{animation-delay:.24s}.ha.d3{animation-delay:.38s}.ha.d4{animation-delay:.52s}.ha.d5{animation-delay:.66s}
+@media(max-width:900px){
+  .nav{padding:0 20px}
+  .nav-links,.nav-cta{display:none}
+  .nav-ham{display:flex}
+  .container,.container-sm{padding:0 20px}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:24px;padding-bottom:32px}
+  .site-footer{padding:40px 0 0}
+  .gbox{padding:36px 24px;grid-template-columns:1fr;gap:28px}
+  .gbox-right{display:none}
+  .pricing-grid,.fc-grid{grid-template-columns:1fr}
+  .how-steps{grid-template-columns:1fr 1fr;gap:20px}
+  .how-steps::before{display:none}
+}
+@media(max-width:768px){
+  .diff-grid,.test-grid,.pain-grid{grid-template-columns:1fr}
+  .hero-stats{gap:16px}
+  .hs-num{font-size:26px}
+  .footer-grid{grid-template-columns:1fr}
+  .footer-bottom{flex-direction:column;align-items:flex-start;gap:8px}
+}
+@media(max-width:480px){
+  .btn-group{flex-direction:column;align-items:stretch}
+  .btn-primary,.btn-secondary{width:100%;justify-content:center}
+}
+@media(prefers-reduced-motion:reduce){
+  .anim,.anim-fade,.anim-left,.anim-right,.anim-scale{opacity:1!important;transform:none!important;transition:none!important}
+  .ha{animation:none!important;opacity:1!important;transform:none!important}
+  .gbox-shield{animation:none!important}
+}
+
+.ub-hide{}
+@media(max-width:600px){.ub-hide,.ub-hide2{display:none}}
+@media(max-width:900px){.services-grid{grid-template-columns:1fr 1fr!important}.stats-banner{grid-template-columns:1fr 1fr!important;gap:16px!important}.why-grid{grid-template-columns:1fr!important;gap:32px!important}}
+@media(max-width:540px){.services-grid{grid-template-columns:1fr!important}}</style>
 </head>
 <body>
-<div class="ub"><div class="ub-dot"></div><span><b style="color:#fff">StorezFix</b> &mdash; Professional Digital Setup Services &mdash; From $97</span></div>
-<nav class="nav"><a href="../index.html" class="nav-logo"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ4IiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMTQ4IDM2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgcng9IjgiIGZpbGw9IiNmZjVjMWEiLz48cG9seWdvbiBwb2ludHM9IjIzLDUgMTcsMTcgMjEsMTcgMTUsMjkgMjcsMTMgMjIsMTMiIGZpbGw9IndoaXRlIi8+PHRleHQgeD0iNDgiIHk9IjE1IiBmb250LWZhbWlseT0iU29yYSxzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNSIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzBjMGYxYSIgbGV0dGVyLXNwYWNpbmc9Ii0wLjUiPlN0b3JlejwvdGV4dD48dGV4dCB4PSI0OCIgeT0iMzEiIGZvbnQtZmFtaWx5PSJTb3JhLHN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjZmY1YzFhIiBsZXR0ZXItc3BhY2luZz0iLTAuNSI+Rml4PC90ZXh0Pjwvc3ZnPg==" alt="StorezFix" height="34"/></a><div class="nav-links"><a href="../index.html" class="nav-link">Home</a><a href="index.html" class="nav-link active">Blog</a><a href="../about.html" class="nav-link">About</a><a href="../contact.html" class="nav-link">Contact</a></div><button class="nav-ham" id="hamBtn" onclick="toggleMenu()" aria-label="Open menu"><span></span><span></span><span></span></button><a href="../merchant-center.html#pricing" class="nav-cta">Get Started &#8594;</a></nav><div class="mob-menu" id="mobMenu"><a href="../index.html" class="mob-link">&#127968; Home</a><a href="index.html" class="mob-link">&#128221; Blog</a><a href="../about.html" class="mob-link">&#127942; About</a><a href="../contact.html" class="mob-link">&#128231; Contact</a><a href="../merchant-center.html#pricing" class="mob-cta">Get Started &#8594;</a></div>
-<section class="blog-hero">
-  <div class="blog-container">
-    <div class="breadcrumb"><a href="../index.html">Home</a><span>/</span><a href="index.html">Blog</a><span>/</span><span>Google Shopping</span></div>
-    <div class="blog-tag">&#128221; Google Shopping</div>
-    <h1 class="blog-h1">Google Merchant Center Setup Guide for Shopify Stores</h1>
-    <div class="blog-meta"><span>&#128197; May 2026</span><span>&#9202; 9 min read</span><span>&#127942; StorezFix Team</span></div>
+<div class="ub"><div class="ub-dot"></div><span><span class="ub-bold">48-Hour Delivery</span> on all services<span class="ub-hide"> &middot; PayPal Buyer Protection on every order</span></span><span class="ub-tag ub-hide2">&#10003; 100% Money Back Guarantee</span></div>
+<nav class="nav"><a href="index.html" class="nav-logo"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ4IiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMTQ4IDM2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgcng9IjgiIGZpbGw9IiNmZjVjMWEiLz48cG9seWdvbiBwb2ludHM9IjIzLDUgMTcsMTcgMjEsMTcgMTUsMjkgMjcsMTMgMjIsMTMiIGZpbGw9IndoaXRlIi8+PHRleHQgeD0iNDgiIHk9IjE1IiBmb250LWZhbWlseT0iU29yYSxzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNSIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iIzBjMGYxYSIgbGV0dGVyLXNwYWNpbmc9Ii0wLjUiPlN0b3JlejwvdGV4dD48dGV4dCB4PSI0OCIgeT0iMzEiIGZvbnQtZmFtaWx5PSJTb3JhLHN5c3RlbS11aSxzYW5zLXNlcmlmIiBmb250LXNpemU9IjE1IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjZmY1YzFhIiBsZXR0ZXItc3BhY2luZz0iLTAuNSI+Rml4PC90ZXh0Pjwvc3ZnPg==" alt="StorezFix"/></a><div class="nav-links"><a href="index.html" class="nav-link active">Home</a><div class="nav-dd"><button class="nav-link">Services &#9662;</button><div class="dd-menu"><a href="shopify-speed.html" class="dd-item"><div class="dd-icon" style="background:#f0fff8">⚡</div><div><div class="dd-name">Shopify Speed Optimization</div><div class="dd-price">$97 / $497</div></div></a><a href="google-business.html" class="dd-item"><div class="dd-icon" style="background:#fffbeb">📍</div><div><div class="dd-name">Google Business Profile Setup</div><div class="dd-price">$97 / $197</div></div></a><a href="merchant-center.html" class="dd-item"><div class="dd-icon" style="background:#eff6ff">🛒</div><div><div class="dd-name">Google Merchant Center Setup</div><div class="dd-price">$97 / $247</div></div></a><a href="tiktok-shop.html" class="dd-item"><div class="dd-icon" style="background:#fdf2f8">🎵</div><div><div class="dd-name">TikTok Shop Setup</div><div class="dd-price">$197 / $497</div></div></a><a href="schema-markup.html" class="dd-item"><div class="dd-icon" style="background:#f5f3ff">🔖</div><div><div class="dd-name">Schema Markup Setup</div><div class="dd-price">$97 / $197</div></div></a><a href="ai-chatbot.html" class="dd-item"><div class="dd-icon" style="background:#f0fdf4">🤖</div><div><div class="dd-name">AI Chatbot Setup</div><div class="dd-price">$197 / $597</div></div></a></div></div><a href="about.html" class="nav-link ">About</a><a href="contact.html" class="nav-link ">Contact</a></div><button class="nav-ham" id="hamBtn" onclick="toggleMenu()" aria-label="Open navigation menu"><span></span><span></span><span></span></button><a href="shopify-speed.html#pricing" class="nav-cta">Get Started &#8594;</a></nav><div class="mob-menu" id="mobMenu"><div class="mob-section"><span class="mob-label">Services</span><a href="shopify-speed.html" class="mob-link">⚡ Shopify Speed Optimization<span class="mob-link-price">$97 / $497</span></a><a href="google-business.html" class="mob-link">📍 Google Business Profile Setup<span class="mob-link-price">$97 / $197</span></a><a href="merchant-center.html" class="mob-link">🛒 Google Merchant Center Setup<span class="mob-link-price">$97 / $247</span></a><a href="tiktok-shop.html" class="mob-link">🎵 TikTok Shop Setup<span class="mob-link-price">$197 / $497</span></a><a href="schema-markup.html" class="mob-link">🔖 Schema Markup Setup<span class="mob-link-price">$97 / $197</span></a><a href="ai-chatbot.html" class="mob-link">🤖 AI Chatbot Setup<span class="mob-link-price">$197 / $597</span></a></div><div class="mob-div"></div><div class="mob-section"><a href="index.html" class="mob-link">&#127968; Home</a><a href="about.html" class="mob-link">&#127942; About Us</a><a href="contact.html" class="mob-link">&#128231; Contact</a></div><a href="shopify-speed.html#pricing" class="mob-cta">Get Started &#8594;</a></div>
+
+<section style="padding:80px 0 64px;text-align:center"><div class="container">
+  <div style="display:inline-flex;align-items:center;gap:8px;background:#fff4f0;border:1px solid rgba(255,92,26,.2);border-radius:100px;padding:8px 20px;font-size:13px;font-weight:700;color:#ff5c1a;margin-bottom:24px;text-transform:uppercase;letter-spacing:.05em" class="ha">&#9889; Fast &middot; Affordable &middot; Guaranteed</div>
+  <h1 style="font-family:Sora,sans-serif;font-size:clamp(36px,6vw,62px);font-weight:800;line-height:1.04;letter-spacing:-.04em;color:#0c0f1a;margin-bottom:18px" class="ha d1">Your Store. <span style="color:#ff5c1a">Fixed Fast.</span><br/>From $97.</h1>
+  <p style="font-size:19px;color:#4a5568;line-height:1.65;margin-bottom:36px;max-width:600px;margin-left:auto;margin-right:auto" class="ha d2">Professional digital setup services for USA businesses. No retainers. No monthly fees. Pay once, we fix it fast.</p>
+  <div class="btn-group ha d3" style="justify-content:center;margin-bottom:40px">
+    <a href="#services" class="btn-primary">See All Services &#8594;</a>
+    <a href="about.html" class="btn-secondary">About Us</a>
   </div>
-</section>
-<section class="blog-body">
-  <div class="blog-wide">
-    <div class="blog-layout">
-      <div class="blog-container" style="padding:0">
-        <p class="blog-intro anim">Google Shopping drives 76% of all retail search ad clicks. If your products are not in Google Merchant Center, you are missing the highest-intent buyers online — people actively searching to buy what you sell.</p>
-<div class="stat-row anim"><div class="stat-box"><div class="stat-num">76%</div><div class="stat-label">Retail search ad clicks go to Google Shopping</div></div><div class="stat-box"><div class="stat-num">Free</div><div class="stat-label">Organic Shopping listings at no cost</div></div><div class="stat-box"><div class="stat-num">35%</div><div class="stat-label">Product searches start on Google Shopping</div></div></div>
-<h2 id="what-is-gmc">What Is Google Merchant Center?</h2>
-<p>Google Merchant Center (GMC) is a platform where you upload your product data so it appears on Google Shopping, Google Images, Google Lens, and YouTube. It is the data layer that powers Google's Shopping experience — without it, Google has no structured product information to display.</p>
-<p>Merchant Center gives you both <b>free organic product listings</b> (appearing in the Shopping tab and Google Images) and the ability to run <b>paid Shopping ads</b> via Google Ads. Most businesses start with free listings and add paid ads later.</p>
-<h2 id="prerequisites">What You Need Before Starting</h2>
-<ul><li>A Google account (use your business email)</li><li>Your business website URL (storezfix.com is an example — use your Shopify store URL)</li><li>Business address and phone number</li><li>Bank account for payouts if you enable Google Customer Reviews</li><li>Product data including titles, descriptions, prices, images, and GTINs (barcodes) where applicable</li></ul>
-<h2 id="step1">Step 1: Create Your Merchant Center Account</h2>
-<p>Go to merchants.google.com and sign in with your Google account. Click "Get started" and enter your business name and website URL. Verify and claim your website — Google needs to confirm you own the domain. This is done by adding a meta tag to your site or verifying via Google Search Console (if already set up).</p>
-<h2 id="step2">Step 2: Configure Business Settings</h2>
-<p>Complete your business profile including: business address, phone number, customer service email and phone, and return policy URL. These are required fields that Google checks for policy compliance. Incomplete business information is a common cause of account suspensions.</p>
-<div class="callout callout-orange anim"><div class="callout-title">&#9888; Return Policy Requirement</div><p>Google requires a clearly stated return policy on your website. The policy must be accessible from your homepage (footer link is sufficient) and must specify return timeframe and process. Missing or unclear return policies are a top cause of account disapproval.</p></div>
-<h2 id="step3">Step 3: Set Up Shipping Settings</h2>
-<p>Configure shipping for the United States. You need to specify: shipping countries, shipping rates (flat rate, free shipping, carrier calculated, or price-based), and handling time. Accurate shipping information is critical — misleading shipping claims are a policy violation.</p>
-<p>For Shopify stores shipping across the USA: create a shipping service that covers all 50 states with your actual shipping cost and estimated delivery time. If you offer free shipping over a threshold, set up a rule for orders above that amount.</p>
-<h2 id="step4">Step 4: Create Your Product Feed via Shopify</h2>
-<p>The product feed is the data file that sends your product information to Google. For Shopify stores, the easiest method is the official Google and YouTube app from the Shopify App Store:</p>
-<ol><li>Install the Google and YouTube app in Shopify</li><li>Connect your Google account</li><li>Select your Merchant Center account (or create a new one)</li><li>Configure product syncing — Shopify automatically generates the product feed</li><li>Map your Shopify product types to Google product categories</li></ol>
-<h2 id="step5">Step 5: Optimize Your Product Titles and Descriptions</h2>
-<p>Product titles are the most important field for Google Shopping ranking. Google uses the title to match your products to search queries. The optimal structure for product titles:</p>
-<p><b>[Brand] + [Product Type] + [Key Attributes] + [Size/Color if relevant]</b></p>
-<p>Example: "Nike Air Max 270 Men's Running Shoe Black Size 10" beats "Nike Shoe" in both ranking and click relevance.</p>
-<h2 id="step6">Step 6: Fix Feed Errors and Get Approved</h2>
-<p>After your feed is uploaded, check the Diagnostics tab in Merchant Center. Common errors to fix before products go live:</p>
-<ul><li><b>Missing GTINs:</b> Add barcode numbers to products where available</li><li><b>Image quality issues:</b> Use white background images, minimum 800x800px</li><li><b>Price mismatch:</b> Feed price must exactly match the price on your product page</li><li><b>Missing required attributes:</b> Brand, condition, and availability must be specified</li></ul>
-<div class="cta-strip anim">
-  <h2>Need This Done <span>For You?</span></h2>
-  <p>Skip the DIY. Our expert team handles your Google Merchant Center Setup professionally — guaranteed results or full refund.</p>
-  <div class="cta-btns">
-    <a href="../merchant-center.html" class="btn">View Google Merchant Center Setup &#8594;</a>
-    <a href="mailto:hello@storezfix.com" class="btn btn-sec">Ask a Question</a>
+  <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap" class="ha d4">
+    <span style="display:flex;align-items:center;gap:6px;font-size:14px;font-weight:600;color:#4a5568">&#10003; One-time payment</span>
+    <span style="display:flex;align-items:center;gap:6px;font-size:14px;font-weight:600;color:#4a5568">&#9889; 24-48hr delivery</span>
+    <span style="display:flex;align-items:center;gap:6px;font-size:14px;font-weight:600;color:#4a5568">&#128274; PayPal protected</span>
+    <span style="display:flex;align-items:center;gap:6px;font-size:14px;font-weight:600;color:#4a5568">&#127942; 13+ years experience</span>
   </div>
-</div>
-<h2 id="faq">FAQ</h2><div class="blog-faq anim"><div class="bf" onclick="toggleFaq(this)"><div class="bf-q">Do I need Google Ads to use Google Merchant Center?<div class="bf-icon">+</div></div><div class="bf-a">No. Google Merchant Center gives you access to free product listings (Shopping tab, Image search, Google Lens) even without running paid ads. It is worth setting up for the free traffic alone.</div></div><div class="bf" onclick="toggleFaq(this)"><div class="bf-q">Why was my Merchant Center account disapproved?<div class="bf-icon">+</div></div><div class="bf-a">Common reasons: misrepresentation of products or pricing, landing page issues (product page differs from feed), missing required product data (GTIN, description, images), or policy violations. Check the Diagnostics tab for specific disapproval reasons.</div></div><div class="bf" onclick="toggleFaq(this)"><div class="bf-q">How do I fix feed errors in Merchant Center?<div class="bf-icon">+</div></div><div class="bf-a">Go to Products, then Diagnostics in Merchant Center. Each error has a description and affected products. Fix the underlying product data in Shopify or your feed settings, then request a data refresh.</div></div><div class="bf" onclick="toggleFaq(this)"><div class="bf-q">How long does it take for products to appear on Google Shopping?<div class="bf-icon">+</div></div><div class="bf-a">After your account is approved and feed is uploaded, products typically appear within 3-7 business days. Some products can appear within hours. New accounts sometimes take longer as Google evaluates trustworthiness.</div></div><div class="bf" onclick="toggleFaq(this)"><div class="bf-q">Does Merchant Center work with all Shopify plans?<div class="bf-icon">+</div></div><div class="bf-a">Yes — Google Merchant Center integration works with all Shopify plans. The Google and YouTube app in the Shopify App Store connects your store to Merchant Center automatically.</div></div></div>
+</div></section>
+
+<div style="background:#ff5c1a;padding:48px 0"><div class="container">
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center" class="stats-banner">
+    <div class="anim d1"><div style="font-family:Sora,sans-serif;font-size:42px;font-weight:800;color:#fff;letter-spacing:-.04em;line-height:1;margin-bottom:6px" data-count="500+">500+</div><div style="font-size:14px;color:rgba(255,255,255,.8)">Businesses fixed</div></div>
+    <div class="anim d2"><div style="font-family:Sora,sans-serif;font-size:42px;font-weight:800;color:#fff;letter-spacing:-.04em;line-height:1;margin-bottom:6px" data-count="13+">13+</div><div style="font-size:14px;color:rgba(255,255,255,.8)">Years expertise</div></div>
+    <div class="anim d3"><div style="font-family:Sora,sans-serif;font-size:42px;font-weight:800;color:#fff;letter-spacing:-.04em;line-height:1;margin-bottom:6px" data-count="43">43</div><div style="font-size:14px;color:rgba(255,255,255,.8)">Person in-house team</div></div>
+    <div class="anim d4"><div style="font-family:Sora,sans-serif;font-size:42px;font-weight:800;color:#fff;letter-spacing:-.04em;line-height:1;margin-bottom:6px" data-count="100%">100%</div><div style="font-size:14px;color:rgba(255,255,255,.8)">Money back guarantee</div></div>
+  </div>
+</div></div>
+
+<section id="services" style="padding:72px 0"><div class="container">
+  <div class="anim"><div class="section-tag">&#128736; Our Services</div><h2 class="section-h2">Pick Your Fix. <span>We Handle the Rest.</span></h2><p class="section-sub">Choose the service you need. Pay once via PayPal. Delivered in 24-48 hours. No calls, no contracts.</p></div>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px" class="services-grid"><a href="shopify-speed.html" style="border:1.5px solid #e8ecf0;;border-radius:20px;padding:28px;text-decoration:none;color:#0c0f1a;display:block;background:#fff;transition:all .3s ease;position:relative" class="anim d1" onmouseover="this.style.borderColor='#ff5c1a';this.style.transform='translateY(-5px)';this.style.boxShadow='0 20px 48px rgba(255,92,26,.12)'" onmouseout="this.style.borderColor='';this.style.transform='';this.style.boxShadow=''"><div style="width:48px;height:48px;border-radius:12px;background:#f0fff8;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:14px">⚡</div><div style="font-family:Sora,sans-serif;font-size:17px;font-weight:800;color:#0c0f1a;margin-bottom:8px">Shopify Speed Optimization</div><div style="font-size:13px;color:#4a5568;line-height:1.6;margin-bottom:16px">Fix Core Web Vitals. 90+ Desktop score guaranteed or full refund.</div><div style="display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid #e8ecf0;margin-bottom:14px"><div style="font-family:Sora,sans-serif;font-size:13px;color:#4a5568">From <span style="font-size:22px;font-weight:800;color:#0c0f1a">$97</span></div><div style="font-size:11px;font-weight:700;color:#009960;background:#f0fff8;padding:4px 10px;border-radius:100px">&#9889; 24 Hours</div></div><div style="display:block;width:100%;background:#ff5c1a;color:#fff;font-family:Sora,sans-serif;font-size:13px;font-weight:700;padding:11px;border-radius:10px;text-align:center">Speed Up My Store &#8594;</div></a><a href="google-business.html" style="border:1.5px solid #e8ecf0;;border-radius:20px;padding:28px;text-decoration:none;color:#0c0f1a;display:block;background:#fff;transition:all .3s ease;position:relative" class="anim d2" onmouseover="this.style.borderColor='#ff5c1a';this.style.transform='translateY(-5px)';this.style.boxShadow='0 20px 48px rgba(255,92,26,.12)'" onmouseout="this.style.borderColor='';this.style.transform='';this.style.boxShadow=''"><div style="width:48px;height:48px;border-radius:12px;background:#fffbeb;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:14px">📍</div><div style="font-family:Sora,sans-serif;font-size:17px;font-weight:800;color:#0c0f1a;margin-bottom:8px">Google Business Profile Setup</div><div style="font-size:13px;color:#4a5568;line-height:1.6;margin-bottom:16px">Get found on Google Maps and local search. Complete setup in 1 day.</div><div style="display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid #e8ecf0;margin-bottom:14px"><div style="font-family:Sora,sans-serif;font-size:13px;color:#4a5568">From <span style="font-size:22px;font-weight:800;color:#0c0f1a">$97</span></div><div style="font-size:11px;font-weight:700;color:#009960;background:#f0fff8;padding:4px 10px;border-radius:100px">&#9889; 1 Day</div></div><div style="display:block;width:100%;background:#ff5c1a;color:#fff;font-family:Sora,sans-serif;font-size:13px;font-weight:700;padding:11px;border-radius:10px;text-align:center">Get Found on Maps &#8594;</div></a><a href="merchant-center.html" style="border:1.5px solid #e8ecf0;border-color:#ff5c1a;border-radius:20px;padding:28px;text-decoration:none;color:#0c0f1a;display:block;background:#fff;transition:all .3s ease;position:relative" class="anim d3" onmouseover="this.style.borderColor='#ff5c1a';this.style.transform='translateY(-5px)';this.style.boxShadow='0 20px 48px rgba(255,92,26,.12)'" onmouseout="this.style.borderColor='#ff5c1a';this.style.transform='';this.style.boxShadow=''"><div style="position:absolute;top:-12px;left:20px;background:#ff5c1a;color:#fff;font-family:Sora,sans-serif;font-size:11px;font-weight:700;padding:4px 14px;border-radius:100px">&#128293; Most Popular</div><div style="width:48px;height:48px;border-radius:12px;background:#eff6ff;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:14px">🛒</div><div style="font-family:Sora,sans-serif;font-size:17px;font-weight:800;color:#0c0f1a;margin-bottom:8px">Google Merchant Center Setup</div><div style="font-size:13px;color:#4a5568;line-height:1.6;margin-bottom:16px">Get products on Google Shopping. Reach buyers actively searching.</div><div style="display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid #e8ecf0;margin-bottom:14px"><div style="font-family:Sora,sans-serif;font-size:13px;color:#4a5568">From <span style="font-size:22px;font-weight:800;color:#0c0f1a">$97</span></div><div style="font-size:11px;font-weight:700;color:#009960;background:#f0fff8;padding:4px 10px;border-radius:100px">&#9889; 1 Day</div></div><div style="display:block;width:100%;background:#ff5c1a;color:#fff;font-family:Sora,sans-serif;font-size:13px;font-weight:700;padding:11px;border-radius:10px;text-align:center">Get on Google Shopping &#8594;</div></a><a href="tiktok-shop.html" style="border:1.5px solid #e8ecf0;;border-radius:20px;padding:28px;text-decoration:none;color:#0c0f1a;display:block;background:#fff;transition:all .3s ease;position:relative" class="anim d1" onmouseover="this.style.borderColor='#ff5c1a';this.style.transform='translateY(-5px)';this.style.boxShadow='0 20px 48px rgba(255,92,26,.12)'" onmouseout="this.style.borderColor='';this.style.transform='';this.style.boxShadow=''"><div style="width:48px;height:48px;border-radius:12px;background:#fdf2f8;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:14px">🎵</div><div style="font-family:Sora,sans-serif;font-size:17px;font-weight:800;color:#0c0f1a;margin-bottom:8px">TikTok Shop Setup</div><div style="font-size:13px;color:#4a5568;line-height:1.6;margin-bottom:16px">Connect Shopify to TikTok Shop. Sell to 70M+ US shoppers in 2 days.</div><div style="display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid #e8ecf0;margin-bottom:14px"><div style="font-family:Sora,sans-serif;font-size:13px;color:#4a5568">From <span style="font-size:22px;font-weight:800;color:#0c0f1a">$197</span></div><div style="font-size:11px;font-weight:700;color:#009960;background:#f0fff8;padding:4px 10px;border-radius:100px">&#9889; 2 Days</div></div><div style="display:block;width:100%;background:#ff5c1a;color:#fff;font-family:Sora,sans-serif;font-size:13px;font-weight:700;padding:11px;border-radius:10px;text-align:center">Launch TikTok Shop &#8594;</div></a><a href="schema-markup.html" style="border:1.5px solid #e8ecf0;;border-radius:20px;padding:28px;text-decoration:none;color:#0c0f1a;display:block;background:#fff;transition:all .3s ease;position:relative" class="anim d2" onmouseover="this.style.borderColor='#ff5c1a';this.style.transform='translateY(-5px)';this.style.boxShadow='0 20px 48px rgba(255,92,26,.12)'" onmouseout="this.style.borderColor='';this.style.transform='';this.style.boxShadow=''"><div style="width:48px;height:48px;border-radius:12px;background:#f5f3ff;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:14px">🔖</div><div style="font-family:Sora,sans-serif;font-size:17px;font-weight:800;color:#0c0f1a;margin-bottom:8px">Schema Markup Setup</div><div style="font-size:13px;color:#4a5568;line-height:1.6;margin-bottom:16px">Get star ratings, prices, and FAQs showing in Google search.</div><div style="display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid #e8ecf0;margin-bottom:14px"><div style="font-family:Sora,sans-serif;font-size:13px;color:#4a5568">From <span style="font-size:22px;font-weight:800;color:#0c0f1a">$97</span></div><div style="font-size:11px;font-weight:700;color:#009960;background:#f0fff8;padding:4px 10px;border-radius:100px">&#9889; 1 Day</div></div><div style="display:block;width:100%;background:#ff5c1a;color:#fff;font-family:Sora,sans-serif;font-size:13px;font-weight:700;padding:11px;border-radius:10px;text-align:center">Get Rich Results &#8594;</div></a><a href="ai-chatbot.html" style="border:1.5px solid #e8ecf0;;border-radius:20px;padding:28px;text-decoration:none;color:#0c0f1a;display:block;background:#fff;transition:all .3s ease;position:relative" class="anim d3" onmouseover="this.style.borderColor='#ff5c1a';this.style.transform='translateY(-5px)';this.style.boxShadow='0 20px 48px rgba(255,92,26,.12)'" onmouseout="this.style.borderColor='';this.style.transform='';this.style.boxShadow=''"><div style="width:48px;height:48px;border-radius:12px;background:#f0fdf4;display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:14px">🤖</div><div style="font-family:Sora,sans-serif;font-size:17px;font-weight:800;color:#0c0f1a;margin-bottom:8px">AI Chatbot Setup</div><div style="font-size:13px;color:#4a5568;line-height:1.6;margin-bottom:16px">Capture leads and answer questions 24/7 with a custom AI chatbot.</div><div style="display:flex;justify-content:space-between;align-items:center;padding-top:14px;border-top:1px solid #e8ecf0;margin-bottom:14px"><div style="font-family:Sora,sans-serif;font-size:13px;color:#4a5568">From <span style="font-size:22px;font-weight:800;color:#0c0f1a">$197</span></div><div style="font-size:11px;font-weight:700;color:#009960;background:#f0fff8;padding:4px 10px;border-radius:100px">&#9889; 2 Days</div></div><div style="display:block;width:100%;background:#ff5c1a;color:#fff;font-family:Sora,sans-serif;font-size:13px;font-weight:700;padding:11px;border-radius:10px;text-align:center">Add AI Chatbot &#8594;</div></a></div>
+</div></section>
+
+<section style="background:#f7f8fa;border-top:1px solid #e8ecf0;border-bottom:1px solid #e8ecf0;padding:72px 0"><div class="container">
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center" class="why-grid">
+    <div class="anim-left">
+      <div class="section-tag">&#128170; Why StorezFix</div>
+      <h2 class="section-h2">Why 500+ Businesses <span>Choose Us</span></h2>
+      <div style="display:flex;flex-direction:column;gap:20px;margin-top:24px">
+        <div style="display:flex;gap:14px"><div style="width:44px;height:44px;border-radius:12px;background:#fff4f0;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">&#9889;</div><div><div style="font-family:Sora,sans-serif;font-size:15px;font-weight:700;margin-bottom:4px;color:#0c0f1a">Delivered in 24-48 Hours</div><p style="font-size:14px;color:#4a5568;line-height:1.6">No waiting weeks. We deliver fast so you start seeing results immediately.</p></div></div>
+        <div style="display:flex;gap:14px"><div style="width:44px;height:44px;border-radius:12px;background:#fff4f0;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">&#128179;</div><div><div style="font-family:Sora,sans-serif;font-size:15px;font-weight:700;margin-bottom:4px;color:#0c0f1a">One-Time Payment Only</div><p style="font-size:14px;color:#4a5568;line-height:1.6">No monthly retainers. No hidden fees. Pay once, get it fixed forever.</p></div></div>
+        <div style="display:flex;gap:14px"><div style="width:44px;height:44px;border-radius:12px;background:#fff4f0;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">&#128274;</div><div><div style="font-family:Sora,sans-serif;font-size:15px;font-weight:700;margin-bottom:4px;color:#0c0f1a">PayPal Buyer Protection</div><p style="font-size:14px;color:#4a5568;line-height:1.6">Every purchase is protected. If we do not deliver, you get your money back.</p></div></div>
+        <div style="display:flex;gap:14px"><div style="width:44px;height:44px;border-radius:12px;background:#fff4f0;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">&#128101;</div><div><div style="font-family:Sora,sans-serif;font-size:15px;font-weight:700;margin-bottom:4px;color:#0c0f1a">43-Person Expert Team</div><p style="font-size:14px;color:#4a5568;line-height:1.6">Real specialists handle your setup — not freelancers, not bots. 13+ years of experience.</p></div></div>
       </div>
-      <div class="toc"><div class="toc-title">&#128195; In This Article</div><a href="#what-is-gmc">What Is GMC?</a><a href="#prerequisites">What You Need</a><a href="#step1">Create Account</a><a href="#step2">Business Settings</a><a href="#step3">Shipping Settings</a><a href="#step4">Product Feed</a><a href="#step5">Optimize Titles</a><a href="#step6">Fix Errors</a><a href="#faq">FAQ</a></div>
+    </div>
+    <div class="anim-right" style="background:#0c0f1a;border-radius:24px;padding:36px">
+      <div style="font-family:Sora,sans-serif;font-size:18px;font-weight:800;color:#fff;margin-bottom:20px">StorezFix vs Traditional Agency</div>
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.07);font-size:13px"><div style="color:rgba(255,255,255,.5)">Price</div><div style="color:rgba(255,255,255,.3);text-decoration:line-through">$3,000+/mo</div><div style="color:#ff5c1a;font-weight:700">From $97</div></div>
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.07);font-size:13px"><div style="color:rgba(255,255,255,.5)">Contract</div><div style="color:rgba(255,255,255,.3);text-decoration:line-through">6-12 months</div><div style="color:#ff5c1a;font-weight:700">None ever</div></div>
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.07);font-size:13px"><div style="color:rgba(255,255,255,.5)">Delivery</div><div style="color:rgba(255,255,255,.3);text-decoration:line-through">2-4 weeks</div><div style="color:#ff5c1a;font-weight:700">24-48 hours</div></div>
+      <div style="display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.07);font-size:13px"><div style="color:rgba(255,255,255,.5)">Sales calls</div><div style="color:rgba(255,255,255,.3);text-decoration:line-through">Multiple required</div><div style="color:#ff5c1a;font-weight:700">Zero needed</div></div>
+      <div style="display:flex;justify-content:space-between;padding:11px 0;font-size:13px"><div style="color:rgba(255,255,255,.5)">Protection</div><div style="color:rgba(255,255,255,.3);text-decoration:line-through">None</div><div style="color:#ff5c1a;font-weight:700">PayPal Protected</div></div>
     </div>
   </div>
-</section>
-<footer class="site-footer"><div class="blog-wide"><div class="footer-grid"><div><a href="../index.html"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ4IiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMTQ4IDM2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgcng9IjgiIGZpbGw9IiNmZjVjMWEiLz48cG9seWdvbiBwb2ludHM9IjIzLDUgMTcsMTcgMjEsMTcgMTUsMjkgMjcsMTMgMjIsMTMiIGZpbGw9IndoaXRlIi8+PHRleHQgeD0iNDgiIHk9IjE1IiBmb250LWZhbWlseT0iU29yYSxzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNSIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0id2hpdGUiIGxldHRlci1zcGFjaW5nPSItMC41Ij5TdG9yZXo8L3RleHQ+PHRleHQgeD0iNDgiIHk9IjMxIiBmb250LWZhbWlseT0iU29yYSxzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNSIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmNWMxYSIgbGV0dGVyLXNwYWNpbmc9Ii0wLjUiPkZpeDwvdGV4dD48L3N2Zz4=" alt="StorezFix" height="32" style="display:block;margin-bottom:10px" loading="lazy"/></a><div class="footer-tagline">Professional digital setup services for USA businesses.</div><div class="footer-email"><a href="mailto:hello@storezfix.com">hello@storezfix.com</a></div></div><div><div class="footer-col-title">Services</div><ul class="footer-links"><li><a href="../shopify-speed.html">⚡ Shopify Speed Optimization</a></li><li><a href="../google-business.html">📍 Google Business Profile Setup</a></li><li><a href="../merchant-center.html">🛒 Google Merchant Center Setup</a></li><li><a href="../tiktok-shop.html">🎵 TikTok Shop Setup</a></li><li><a href="../schema-markup.html">🔖 Schema Markup Setup</a></li><li><a href="../ai-chatbot.html">🤖 AI Chatbot Setup</a></li></ul></div><div><div class="footer-col-title">Company</div><ul class="footer-links"><li><a href="../index.html">Home</a></li><li><a href="index.html">Blog</a></li><li><a href="../about.html">About</a></li><li><a href="../contact.html">Contact</a></li></ul></div><div><div class="footer-col-title">Legal</div><ul class="footer-links"><li><a href="../privacy.html">Privacy Policy</a></li><li><a href="../terms.html">Terms of Service</a></li></ul></div></div><div class="footer-bottom"><div class="footer-copy">&#169; 2026 StorezFix.</div><div class="footer-trust"><span>&#128274; PayPal Protected</span><span>&#9889; 48hr Delivery</span><span>&#127942; 13+ Years</span></div></div></div></footer>
+</div></section>
+
+<section style="padding:72px 0;background:#0c0f1a;text-align:center"><div class="container">
+  <div class="anim"><div style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,92,26,.15);border:1px solid rgba(255,92,26,.25);border-radius:100px;padding:7px 18px;font-size:12px;font-weight:700;color:#ff5c1a;margin-bottom:18px;text-transform:uppercase;letter-spacing:.04em">&#9889; Get Started Today</div>
+  <h2 style="font-family:Sora,sans-serif;font-size:clamp(28px,5vw,46px);font-weight:800;color:#fff;letter-spacing:-.04em;margin-bottom:14px;line-height:1.1">Ready to Fix <span style="color:#ff5c1a">Your Store?</span></h2>
+  <p style="font-size:17px;color:rgba(255,255,255,.45);margin-bottom:36px;line-height:1.65">Choose a service, pay via PayPal, and we will have it done within 24-48 hours.</p>
+  <div class="btn-group" style="justify-content:center">
+    <a href="#services" class="btn-primary" style="background:#fff;color:#0c0f1a">See All Services &#8594;</a>
+    <a href="mailto:hello@storezfix.com" style="display:inline-flex;align-items:center;background:transparent;color:rgba(255,255,255,.7);font-family:Sora,sans-serif;font-size:15px;font-weight:600;padding:14px 28px;border-radius:12px;text-decoration:none;border:1.5px solid rgba(255,255,255,.2)">Email a Question</a>
+  </div></div>
+</div></section>
+
+<footer class="site-footer"><div class="container"><div class="footer-grid"><div><a href="index.html"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ4IiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMTQ4IDM2IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgcng9IjgiIGZpbGw9IiNmZjVjMWEiLz48cG9seWdvbiBwb2ludHM9IjIzLDUgMTcsMTcgMjEsMTcgMTUsMjkgMjcsMTMgMjIsMTMiIGZpbGw9IndoaXRlIi8+PHRleHQgeD0iNDgiIHk9IjE1IiBmb250LWZhbWlseT0iU29yYSxzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNSIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0id2hpdGUiIGxldHRlci1zcGFjaW5nPSItMC41Ij5TdG9yZXo8L3RleHQ+PHRleHQgeD0iNDgiIHk9IjMxIiBmb250LWZhbWlseT0iU29yYSxzeXN0ZW0tdWksc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNSIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmNWMxYSIgbGV0dGVyLXNwYWNpbmc9Ii0wLjUiPkZpeDwvdGV4dD48L3N2Zz4=" alt="StorezFix" style="height:32px;margin-bottom:12px"/></a><div class="footer-tagline">Professional digital setup services for USA businesses. Fast delivery. PayPal protected. 13+ years of expertise.</div><div class="footer-email"><a href="mailto:hello@storezfix.com">hello@storezfix.com</a></div></div><div><div class="footer-col-title">Services</div><ul class="footer-links"><li><a href="shopify-speed.html">⚡ Shopify Speed Optimization</a></li><li><a href="google-business.html">📍 Google Business Profile Setup</a></li><li><a href="merchant-center.html">🛒 Google Merchant Center Setup</a></li><li><a href="tiktok-shop.html">🎵 TikTok Shop Setup</a></li><li><a href="schema-markup.html">🔖 Schema Markup Setup</a></li><li><a href="ai-chatbot.html">🤖 AI Chatbot Setup</a></li></ul></div><div><div class="footer-col-title">Company</div><ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="blog/index.html">Blog</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li></ul></div><div><div class="footer-col-title">Legal</div><ul class="footer-links"><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li></ul></div></div><div class="footer-bottom"><div class="footer-copy">&#169; 2026 StorezFix. All rights reserved.</div><div class="footer-trust"><span>&#128274; PayPal Protected</span><span>&#9889; 24-48hr Delivery</span><span>&#127942; 13+ Years</span><span>&#128101; 43-Person Team</span></div></div></div></footer>
 <script>
+// PayPal checkout
+function buyNow(p,n){window.open('https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=7W8ECCH6GFNU6&item_name='+encodeURIComponent(n)+'&amount='+p+'&currency_code=USD&no_note=1&no_shipping=1','_top');}
+
+// FAQ accordion
+function toggleFaq(el){var o=el.classList.contains('open');document.querySelectorAll('.fi').forEach(function(i){i.classList.remove('open');});if(!o)el.classList.add('open');}
+
+// Mobile menu
 function toggleMenu(){var b=document.getElementById('hamBtn'),m=document.getElementById('mobMenu');if(!b||!m)return;b.classList.toggle('open');m.classList.toggle('open');document.body.style.overflow=m.classList.contains('open')?'hidden':'';}
-function toggleFaq(el){var o=el.classList.contains('open');document.querySelectorAll('.bf').forEach(function(i){i.classList.remove('open');});if(!o)el.classList.add('open');}
+
+// Counter animation
+function countUp(el){
+  var raw=el.getAttribute('data-count');
+  if(!raw)return;
+  var match=raw.match(/^([^\d]*)(\d+(?:\.\d+)?)(.*)$/);
+  if(!match)return;
+  var pre=match[1],target=parseFloat(match[2]),suf=match[3],isFloat=target%1!==0,dur=1600,start=null;
+  function step(ts){
+    if(!start)start=ts;
+    var prog=Math.min((ts-start)/dur,1),ease=1-Math.pow(1-prog,3),val=ease*target;
+    el.textContent=pre+(isFloat?val.toFixed(1):Math.round(val))+suf;
+    if(prog<1)requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
 document.addEventListener('DOMContentLoaded',function(){
-  document.querySelectorAll('.mob-link').forEach(function(l){l.addEventListener('click',function(){var b=document.getElementById('hamBtn'),m=document.getElementById('mobMenu');if(b)b.classList.remove('open');if(m)m.classList.remove('open');document.body.style.overflow='';});});
-  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});document.querySelectorAll('.anim').forEach(function(el){io.observe(el);});}else{document.querySelectorAll('.anim').forEach(function(el){el.classList.add('in');});}
+
+  // Nav dropdown
+  document.querySelectorAll('.nav-dd').forEach(function(dd){
+    var menu=dd.querySelector('.dd-menu'),timer;
+    if(!menu)return;
+    dd.addEventListener('mouseenter',function(){clearTimeout(timer);menu.classList.add('open');});
+    dd.addEventListener('mouseleave',function(){timer=setTimeout(function(){menu.classList.remove('open');},180);});
+    var btn=dd.querySelector('button');
+    if(btn)btn.addEventListener('click',function(e){e.preventDefault();menu.classList.toggle('open');});
+  });
+
+  // Close dropdown on outside click
+  document.addEventListener('click',function(e){
+    if(!e.target.closest('.nav-dd')){
+      document.querySelectorAll('.dd-menu').forEach(function(m){m.classList.remove('open');});
+    }
+  });
+
+  // Close mobile menu when link clicked
+  document.querySelectorAll('.mob-link').forEach(function(l){
+    l.addEventListener('click',function(){
+      var b=document.getElementById('hamBtn'),m=document.getElementById('mobMenu');
+      if(b)b.classList.remove('open');
+      if(m)m.classList.remove('open');
+      document.body.style.overflow='';
+    });
+  });
+
+  // Scroll animations
+  if('IntersectionObserver' in window){
+    var animObs=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){e.target.classList.add('in');animObs.unobserve(e.target);}
+      });
+    },{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.anim,.anim-fade,.anim-left,.anim-right,.anim-scale').forEach(function(el){animObs.observe(el);});
+
+    // Counter
+    var countObs=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){countUp(e.target);countObs.unobserve(e.target);}});
+    },{threshold:0.3});
+    document.querySelectorAll('[data-count]').forEach(function(el){countObs.observe(el);});
+  } else {
+    document.querySelectorAll('.anim,.anim-fade,.anim-left,.anim-right,.anim-scale').forEach(function(el){el.classList.add('in');});
+    document.querySelectorAll('[data-count]').forEach(function(el){countUp(el);});
+  }
 });
+
+// Service worker
+if('serviceWorker' in navigator){
+  window.addEventListener('load',function(){navigator.serviceWorker.register('service-worker.js').catch(function(){});});
+}
 </script>
+<div>
 </body>
 </html>
