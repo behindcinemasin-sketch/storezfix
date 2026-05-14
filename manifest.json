@@ -1,16 +1,79 @@
-{
-  "name": "StorezFix",
-  "short_name": "StorezFix",
-  "description": "Professional digital setup services for USA businesses",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ff5c1a",
-  "icons": [
-    {
-      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHJ4PSI3IiBmaWxsPSIjZmY1YzFhIi8+PHBvbHlnb24gcG9pbnRzPSIyMSw2IDE2LDE2IDIwLDE2IDE1LDI2IDI0LDE0IDIwLDE0IiBmaWxsPSJ3aGl0ZSIvPjwvc3ZnPg==",
-      "sizes": "192x192",
-      "type": "image/svg+xml"
-    }
-  ]
-}
+# StorezFix
+
+> Professional digital setup services for USA businesses. Fast delivery. Guaranteed results. PayPal protected.
+
+StorezFix is a productized digital services company serving small and medium businesses across the United States. Every service is delivered by a 43-person in-house expert team with 13+ years of experience. All services are one-time payment, no monthly retainers, no contracts, and backed by a 100% money back guarantee with PayPal Buyer Protection on every order.
+
+## Services
+
+### Shopify Speed Optimization
+- URL: https://storezfix.com/shopify-speed.html
+- Pricing: $97 Audit (24-hour delivery) | $497 Full Fix (48-hour delivery)
+- Guarantee: 90+ Google Desktop PageSpeed score and 65+ Mobile score — or full refund
+- Includes: Image compression, WebP conversion, CSS/JS minification, lazy loading, font optimization, app bloat removal, caching setup, render-blocking fixes, Core Web Vitals optimization, before/after report, video walkthrough, 30-day support
+- Best for: Shopify store owners with slow loading stores, low PageSpeed scores, poor Core Web Vitals
+
+### Google Business Profile Setup
+- URL: https://storezfix.com/google-business.html
+- Pricing: $97 Audit (24-hour delivery) | $197 Full Setup (1-day delivery)
+- Guarantee: Fully live and optimized profile — or full refund
+- Includes: Profile creation and verification, category optimization, local keyword setup, photos, Q&A section, review templates, Google Posts, Search Console verification, 30-day support
+- Best for: Local businesses not showing on Google Maps, businesses with incomplete Google Business Profiles
+
+### Google Merchant Center Setup
+- URL: https://storezfix.com/merchant-center.html
+- Pricing: $97 Audit (24-hour delivery) | $247 Full Setup (1-day delivery)
+- Guarantee: Products live on Google Shopping — or full refund
+- Includes: GMC account creation, business verification, product feed creation, title and description optimization, category mapping, feed approval, error fixing, shipping and returns setup for USA, 30-day support
+- Best for: eCommerce stores not appearing on Google Shopping, stores with disapproved GMC accounts
+
+### TikTok Shop Setup
+- URL: https://storezfix.com/tiktok-shop.html
+- Pricing: $197 Starter (1-day delivery) | $497 Full Setup (2-day delivery)
+- Guarantee: Fully live TikTok Shop — or full refund
+- Includes: TikTok Shop account, Shopify integration, automatic inventory sync, order management, affiliate program activation, 5 optimized product listings, shipping and returns setup, 30-day support
+- Best for: Shopify store owners wanting to sell on TikTok Shop, brands wanting to activate the TikTok affiliate network
+
+### Schema Markup Setup
+- URL: https://storezfix.com/schema-markup.html
+- Pricing: $97 Audit (24-hour delivery) | $197 Full Setup (1-day delivery)
+- Guarantee: Schema live and validated — or full refund
+- Includes: Organization, Product, Review, AggregateRating, FAQ, BreadcrumbList, HowTo, Article, and Speakable schema — all validated with Google Rich Results Test, 30-day support
+- Best for: Websites without star ratings or rich results in Google Search, businesses wanting AI-search visibility on ChatGPT and Perplexity
+
+### AI Chatbot Setup
+- URL: https://storezfix.com/ai-chatbot.html
+- Pricing: $197 Starter (1-day delivery) | $597 Full Setup (2-day delivery)
+- Guarantee: Live chatbot capturing leads 24/7 — or full refund
+- Includes: AI chatbot installation, brand customization, full Q&A knowledge base, lead capture, CRM integration, Calendly booking integration, escalation flows, mobile optimization, video walkthrough, 30-day support
+- Best for: Businesses losing leads overnight, websites relying on contact forms, service businesses wanting automated booking
+
+## Why StorezFix
+
+- 43-person in-house expert team (not freelancers)
+- 13+ years of digital marketing and eCommerce experience
+- 500+ businesses served across the USA
+- One-time payment — no monthly retainers, no contracts
+- 100% money back guarantee on every service
+- PayPal Buyer Protection on every order
+- 24–48 hour delivery on all services
+- Video walkthrough included with every service
+- 30-day post-delivery support included
+
+## Contact
+
+- Website: https://storezfix.com
+- Email: hello@storezfix.com
+- All services: https://storezfix.com/#services
+
+## Pages
+
+- Homepage: https://storezfix.com/
+- About: https://storezfix.com/about.html
+- Contact: https://storezfix.com/contact.html
+- Shopify Speed: https://storezfix.com/shopify-speed.html
+- Google Business Profile: https://storezfix.com/google-business.html
+- Google Merchant Center: https://storezfix.com/merchant-center.html
+- TikTok Shop: https://storezfix.com/tiktok-shop.html
+- Schema Markup: https://storezfix.com/schema-markup.html
+- AI Chatbot: https://storezfix.com/ai-chatbot.html
