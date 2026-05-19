@@ -15,4 +15,3 @@ User-agent: GoogleOther
 Allow: /
 
 Sitemap: https://storezfix.com/sitemap.xml
-LLMs: https://storezfix.com/llms.txt
